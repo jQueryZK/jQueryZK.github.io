@@ -1,296 +1,152 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="baidu-site-verification" content="L6Lm9d5Crl"/>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="jQueryZK" href="http://yoursite.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="jQueryZK" href="http://yoursite.com/atom.xml" />
+<link rel="alternate" type="application/json" title="jQueryZK" href="http://yoursite.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic|Noto Serif JP:300,300italic,400,400italic,700,700italic|Inconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+
+<link rel="stylesheet" href="/css/app.css">
+
+
   
-  
-  
-  
+
+
+<meta name="description" content="" >
+
+
+<link rel="canonical" href="http://yoursite.com/">
+
+
+
   <title>jQueryZK</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="jQueryZK">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="jQueryZK">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="jQueryZK">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternative" href="/atom.xml" title="jQueryZK" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/img/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  
-    
-    
-  
-  
-      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  
-  <!-- 加载特效 -->
-    <script src="/js/pace.js"></script>
-    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
-  <script>
-      var yiliaConfig = {
-          fancybox: true,
-          animate: true,
-          isHome: true,
-          isPost: false,
-          isArchive: false,
-          isTag: false,
-          isCategory: false,
-          open_in_new: false
-      }
-  </script>
 <meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="body"></div>
+      <div class="tail"></div>
+      <div class="head"></div>
+    </div>
+  </div>
 
-        <a href="/" class="profilepic">
-            
-            <img lazy-src="/img/avatar.png" class="js-avatar">
-            
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/"></a></h1>
-        </hgroup>
-        
-        
-            <form>
-                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder="搜索一下" autocomplete="off">
-            </form>
-            <div id="local-search-result"></div>
-        
-        
-            <script type="text/javascript">
-                (function() {
-                    'use strict';
-                    function getMatchData(keyword, data) {
-                        var matchData = [];
-                        for(var i =0;i<data.length;i++){
-                            if(data[i].title.toLowerCase().indexOf(keyword)>=0) 
-                                matchData.push(data[i])
-                        }
-                        return matchData;
-                    }
-                    var $input = $('#local-search-input');
-                    var $resultContent = $('#local-search-result');
-                    $input.keyup(function(){
-                        $.ajax({
-                            url: '/search.json',
-                            dataType: "json",
-                            success: function( json ) {
-                                var str='<ul class=\"search-result-list\">';                
-                                var keyword = $input.val().trim().toLowerCase();
-                                $resultContent.innerHTML = "";
-                                if ($input.val().trim().length <= 0) {
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                }
-                                var results = getMatchData(keyword, json);
-                                if(results.length === 0){
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                } 
-                                for(var i =0; i<results.length; i++){
-                                    str += "<li><a href='"+ results[i].url +"' class='search-result-title'>"+ results[i].title +"</a></li>";
-                                }
-                                str += "</ul>";
-                                $resultContent.empty();
-                                $resultContent.append(str);
-                                $('#switch-area').hide();
-                            }
-                        });
-                    });
-                })();
-            </script>
-        
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        <div class="icon-wrap icon-link hide" data-idx="2">
-                            <div class="loopback_l"></div>
-                            <div class="loopback_r"></div>
-                        </div>
-                        
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        <li>友情链接</li>
-                        
-                        
-                        <li>关于我</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a  href="/archives/">所有文章</a></li>
-                        
-                            <li><a  href="/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/">玩转开发工具</a></li>
-                        
-                            <li><a  href="/categories/digital">玩转数码</a></li>
-                        
-                            <li><a  href="/categories/algorithm">算法学习</a></li>
-                        
-                            <li><a  href="/about/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fl github"  target="_blank" href="/xxxxx" title="github">github</a>
-                            
-                                <a class="fl weibo"  target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                            
-                                <a class="fl rss"  target="_blank" href="/atom.xml" title="rss">rss</a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        
-                    </div>
-                </section>
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a target="_blank"  class="main-nav-link switch-friends-link" href="http://blog.csdn.net/weixin_44279178">csdn</a>
-                    
-                    </div>
-                </section>
-                
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">爱动漫,爱游戏,爱编程,爱运动,爱的太多了!</div>
-                </section>
-                
-            </div>
-        </div>
-    </header>
+  <div class="container">
+    <header itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <nav>
+  <div class="inner">
+    <div class="toggle menu">
+      <div class="lines" aria-label="Toggle navigation bar">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="list menu">
+      <li class="item">
+        <a href="/" rel="section"><i class="ic i-home"></i>Home</a>
+      </li>
+    </ul>
+    <div class="right menu">
+      <div class="theme-btn">
+        <i class="ic i-sun"></i>
+      </div>
+      <div class="search-btn">
+        <i class="ic i-search"></i>
+      </div>
+      <div class="back-to-top">
+        <i class="ic i-arrow-up"></i>
+        <span>0%</span>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="brand">
+  <div class="meta">
+    <a href="/" class="logo" rel="start">
+      <span class="artboard"></span>
+      <h1 class="title">jQueryZK</h1>
+    </a>
+  </div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" />
+      <use xlink:href="#gentle-wave" x="48" y="3" />
+      <use xlink:href="#gentle-wave" x="48" y="5" />
+      <use xlink:href="#gentle-wave" x="48" y="7" />
+    </g>
+  </svg>
+</div>
+<div class="search">
+  <div class="inner">
+    <div class="header">
+      <span class="icon">
+        <i class="ic i-search"></i>
+      </span>
+      <div class="search-input-container"></div>
+      <span class="close-btn">
+        <i class="ic i-times-circle"></i>
+      </span>
+    </div>
+    <div class="results">
+      <div class="inner">
+        <div id="search-stats"></div>
+        <div id="search-hits"></div>
+        <div id="search-pagination"></div>
+      </div>
+    </div>
+  </div>
 </div>
 
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页"></a></h1>
       </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                
-                    <img lazy-src="/img/avatar.png" class="js-avatar">
-                
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页"></a></h1>
-            </hgroup>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/">玩转开发工具</a></li>
-                
-                    <li><a href="/categories/digital">玩转数码</a></li>
-                
-                    <li><a href="/categories/algorithm">算法学习</a></li>
-                
-                    <li><a href="/about/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a class="github" target="_blank" href="/xxxxx" title="github">github</a>
-                    
-                        <a class="weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                    
-                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
-                    
-                </div>
-            </nav>
-        </header>
-    </div>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-Java学习-类的隐藏机制(封装性)" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a  href="/2020/08/20/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/" class="article-date">
-      <time datetime="2020-08-20T10:46:26.332Z" itemprop="datePublished">2020-08-20</time>
-</a>
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+      <ul class="lozad">
+        <li data-background-image="/images/banner/1.jpg"></li>
+        <li data-background-image="/images/banner/2.jpg"></li>
+        <li data-background-image="/images/banner/3.jpg"></li>
+        <li data-background-image="/images/banner/4.jpg"></li>
+        <li data-background-image="/images/banner/5.jpg"></li>
+        <li data-background-image="/images/banner/6.jpg"></li>
+      </ul>
+    </header>
+    <main>
+      <div class="inner">
+        <div class="content pjax">
           
-        <p>title: Java学习-类的隐藏机制（封装性）</p>
+  <div class="index wrap">
+        
+  <div class="card">
+
+
+    <div class="cover">
+      <p></p>
+    </div>
+    <div class="message">
+      <div class="inner">
+        <h2 class="title">
+          <a href="/2020/08/20/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/" itemprop="url" title="Untitled">Untitled</a>
+        </h2>
+          <div class="meta">
+            <i class="ic i-calendar"></i><time itemprop="dateCreated datePublished" datetime="2020-08-20T18:46:26+08:00">2020-08-20</time>
+          </div>
+          <div class="posts">
+              <p>title: Java学习-类的隐藏机制（封装性）</p>
 <h1 id="1、封装的含义"><a href="#1、封装的含义" class="headerlink" title="1、封装的含义"></a>1、封装的含义</h1><p><strong>封装</strong>（encapsulation）是面向对象的三要素之一（其它两个是<strong>继承</strong>和<strong>多态</strong>），它有两成含义：<br>     1、将数据（属性）和函数（行为）放在一个独立的类中，使类成为一个独立的单元。<br>     2、通过访问限定符（private等）实现对<strong>信息的隐藏或公开</strong>，隐藏类的内部实现。而留下一些接口（public的成员函数）与外界进行信息交换（外界要想访问某个成员只能通过接口实现）当类的设计者改变了类的内部实现时，但只要接口不变，对于类的使用者而言,没有任何影响。这就是所谓的“<strong>接口和实现的分离</strong>”<br>     <strong>那么什么是封装？</strong> 简单地说，封装就是将数据和函数放在一起，将不想让外界看到的内容（通常是数据）声明为private的，不允许外界存取。外界要想访问的话，就只能通过类留给外部的接口。<br>      <strong>为了更好的理解为什么要对对象进行封装，下面举个例子进行说明</strong><br>    先写两个类  ：</p>
 <ul>
 <li><p>Person类</p>
@@ -325,157 +181,130 @@
 </li>
 </ul>
 
-      
+          </div>
+        <a href="/2020/08/20/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/" itemprop="url" title="" class="btn">more...</a>
+      </div>
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
-  
-</article>
 
-
-
-
-
-
-
-
-
-
+  </div>
 
   
-  
 
-</div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                &copy; 2020 jQueryZK
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank">Hexo &nbsp;&nbsp;</a><a href="https://github.com/maochunguang" target="_blank">Blog</a> by tommy
-            </div>
+
+
         </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" >极客到访数: 
-                            <span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>, </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit">本页阅读量: 
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
-    </div>
-</footer>
+        <div class="sidebar">
+          
+<div class="inner">
 
-    </div>
-    
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-
-
-<script src="/js/main.js"></script>
-
-
-    <script>
-        $(document).ready(function() {
-            var backgroundnum = 1;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
-            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-        })
-    </script>
-
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'xxxxx', 'auto');
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
-
-
-
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?xxxxxx";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="Contents">
+      </div>
+      <div class="related panel pjax" data-title="Related">
+      </div>
+      <div class="overview panel" data-title="Overview">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="jQueryZK"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">jQueryZK</p>
+  <div class="description" itemprop="description"></div>
 </div>
-<script>
-    $(document).ready(function() {
-        if ($("#comments").length < 1) {
-            $("#scroll > a:nth-child(2)").hide();
-        };
-    })
-</script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+<nav class="state">
+    <div class="item posts">
+      <span class="count">1</span>
+      <span class="name">posts</span>
+    </div>
+</nav>
 
-  <script language="javascript">
-    $(function() {
-        $("a[title]").each(function() {
-            var a = $(this);
-            var title = a.attr('title');
-            if (title == undefined || title == "") return;
-            a.data('title', title).removeAttr('title').hover(
-            function() {
-                var offset = a.offset();
-                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
-                    top: offset.top - a.outerHeight() - 15,
-                    left: offset.left + a.outerWidth()/2 + 1
-                }).fadeIn(function() {
-                    var pop = $(this);
-                    setTimeout(function() {
-                        pop.remove();
-                    }, pop.text().length * 800);
-                });
-            }, function() {
-                $("#anchortitlecontainer").remove();
-            });
-        });
-    });
-</script>
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3lvdXJuYW1l" title="https:&#x2F;&#x2F;github.com&#x2F;yourname"><i class="ic i-github"></i></span>
+      <span class="exturl item twitter" data-url="aHR0cHM6Ly90d2l0dGVyLmNvbS95b3VybmFtZQ==" title="https:&#x2F;&#x2F;twitter.com&#x2F;yourname"><i class="ic i-twitter"></i></span>
+      <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS95b3VybmFtZQ==" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;yourname"><i class="ic i-zhihu"></i></span>
+      <span class="exturl item music" data-url="aHR0cHM6Ly9tdXNpYy4xNjMuY29tLyMvdXNlci9ob21lP2lkPXlvdXJpZA==" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;yourid"><i class="ic i-cloud-music"></i></span>
+      <span class="exturl item weibo" data-url="aHR0cHM6Ly93ZWliby5jb20veW91cm5hbWU=" title="https:&#x2F;&#x2F;weibo.com&#x2F;yourname"><i class="ic i-weibo"></i></span>
+      <span class="exturl item about" data-url="aHR0cHM6Ly9hYm91dC5tZS95b3VybmFtZQ==" title="https:&#x2F;&#x2F;about.me&#x2F;yourname"><i class="ic i-address-card"></i></span>
+</div>
 
 
+<ul class="menu">
+    <li class="item">
+      <a href="/" rel="section"><i class="ic i-home"></i>Home</a>
+    </li>
+</ul>
+
+      </div>
+    </div>
   </div>
+
+  <ul class="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <div class="copyright">
+  
+  &copy; 2010 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="ic i-sakura rotate"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jQueryZK @ jQueryZK</span>
+</div>
+
+<div class="powered-by">
+  Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+</div>
+
+      </div>
+    </footer>
+  </div>
+
+<script data-config type="text/javascript">
+  var LOCAL = {
+    favicon: {
+      show: "（●´3｀●）",
+      hide: "(´Д｀)"
+    },
+    search : {
+      placeholder: "Search for Posts",
+      empty: "We didn't find any results for the search: ${query}",
+      stats: "${hits} results found in ${time} ms"
+    },
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return uri === 'http://yoursite.com/';
+      }
+    ]
+  };
+</script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/velocity-animate@1.5.2/velocity.min.js,npm/velocity-animate@1.5.2/velocity.ui.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+
+<script src="/js/app.js"></script>
+
+
+
+
+
 </body>
 </html>
