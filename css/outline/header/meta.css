@@ -7,7 +7,7 @@
 }
 .brand .meta {
   position: fixed;
-  width: 556px;
+  width: 570px;
   top: 0;
   left: calc(50% - 278px);
   padding-top: 50px;
@@ -22,7 +22,7 @@ mobile()
   color: var(--header-text-color);
   display: inline-block;
   line-height: $font-size-title;
-  padding: 0 20px;
+  padding: 0 30px;
   position: relative;
 }
 .brand .meta .title {
