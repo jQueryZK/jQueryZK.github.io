@@ -22,7 +22,7 @@ mobile()
   color: var(--header-text-color);
   display: inline-block;
   line-height: $font-size-title;
-  padding: 0 40px;
+  padding: 0 20px;
   position: relative;
 }
 .brand .meta .title {
