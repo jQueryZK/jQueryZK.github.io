@@ -1,3 +1,129 @@
-// build time:Fri Aug 21 2020 09:23:16 GMT+0800 (GMT+08:00)
-var e=document.querySelector(".fireworks");if(e){var n=e.getContext("2d");var a=30;var t=0;var i=0;var r="mousedown";var o=["#FF1461","#18FF92","#5A87FF","#FBF38C"];var d=debounce(function(){e.width=window.innerWidth;e.height=window.innerHeight;e.style.width=window.innerWidth+"px";e.style.height=window.innerHeight+"px";e.getContext("2d").scale(1,1)},500);var l=anime({duration:Infinity,update:function(){n.clearRect(0,0,e.width,e.height)}});document.addEventListener(r,function(e){if(e.target.id!=="sidebar"&&e.target.id!=="toggle-sidebar"&&e.target.nodeName!=="A"&&e.target.nodeName!=="IMG"){l.play();u(e);m(t,i)}},false);d();window.addEventListener("resize",d,false)}function u(n){t=(n.clientX||n.touches[0].clientX)-e.getBoundingClientRect().left;i=n.clientY||n.touches[0].clientY-e.getBoundingClientRect().top}function s(e){var n=anime.random(0,360)*Math.PI/180;var a=anime.random(50,180);var t=[-1,1][anime.random(0,1)]*a;return{x:e.x+t*Math.cos(n),y:e.y+t*Math.sin(n)}}function c(e,a){var t={};t.x=e;t.y=a;t.color=o[anime.random(0,o.length-1)];t.radius=anime.random(16,32);t.endPos=s(t);t.draw=function(){n.beginPath();n.arc(t.x,t.y,t.radius,0,2*Math.PI,true);n.fillStyle=t.color;n.fill()};return t}function h(e,a){var t={};t.x=e;t.y=a;t.color="#F00";t.radius=.1;t.alpha=.5;t.lineWidth=6;t.draw=function(){n.globalAlpha=t.alpha;n.beginPath();n.arc(t.x,t.y,t.radius,0,2*Math.PI,true);n.lineWidth=t.lineWidth;n.strokeStyle=t.color;n.stroke();n.globalAlpha=1};return t}function g(e){for(var n=0;n<e.animatables.length;n++){e.animatables[n].target.draw()}}function m(e,n){var t=h(e,n);var i=[];for(var r=0;r<a;r++){i.push(c(e,n))}anime.timeline().add({targets:i,x:function(e){return e.endPos.x},y:function(e){return e.endPos.y},radius:.1,duration:anime.random(1200,1800),easing:"easeOutExpo",update:g}).add({targets:t,radius:anime.random(80,160),lineWidth:0,alpha:{value:0,easing:"linear",duration:anime.random(600,800)},duration:anime.random(1200,1800),easing:"easeOutExpo",update:g,offset:0})}
-//rebuild by hrmmi 
+var canvasEl = document.querySelector('.fireworks')
+if (canvasEl) {
+  var ctx = canvasEl.getContext('2d')
+  var numberOfParticules = 30
+  var pointerX = 0
+  var pointerY = 0
+  // var tap = ('ontouchstart' in window || navigator.msMaxTouchPoints) ? 'touchstart' : 'mousedown'
+  // Fixed the mobile scroll
+  var tap = 'mousedown'
+  var colors = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C']
+
+  var setCanvasSize = debounce(function () {
+    canvasEl.width = window.innerWidth
+    canvasEl.height = window.innerHeight
+    canvasEl.style.width = window.innerWidth + 'px'
+    canvasEl.style.height = window.innerHeight + 'px'
+    canvasEl.getContext('2d').scale(1, 1)
+  }, 500)
+
+  var render = anime({
+    duration: Infinity,
+    update: function () {
+      ctx.clearRect(0, 0, canvasEl.width, canvasEl.height)
+    }
+  })
+
+  document.addEventListener(tap, function (e) {
+    if (e.target.id !== 'sidebar' && e.target.id !== 'toggle-sidebar' && e.target.nodeName !== 'A' && e.target.nodeName !== 'IMG') {
+      render.play()
+      updateCoords(e)
+      animateParticules(pointerX, pointerY)
+    }
+  }, false)
+
+  setCanvasSize()
+  window.addEventListener('resize', setCanvasSize, false)
+}
+
+function updateCoords (e) {
+  pointerX = (e.clientX || e.touches[0].clientX) - canvasEl.getBoundingClientRect().left
+  pointerY = e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top
+}
+
+function setParticuleDirection (p) {
+  var angle = anime.random(0, 360) * Math.PI / 180
+  var value = anime.random(50, 180)
+  var radius = [-1, 1][anime.random(0, 1)] * value
+  return {
+    x: p.x + radius * Math.cos(angle),
+    y: p.y + radius * Math.sin(angle)
+  }
+}
+
+function createParticule (x, y) {
+  var p = {}
+  p.x = x
+  p.y = y
+  p.color = colors[anime.random(0, colors.length - 1)]
+  p.radius = anime.random(16, 32)
+  p.endPos = setParticuleDirection(p)
+  p.draw = function () {
+    ctx.beginPath()
+    ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, true)
+    ctx.fillStyle = p.color
+    ctx.fill()
+  }
+  return p
+}
+
+function createCircle (x, y) {
+  var p = {}
+  p.x = x
+  p.y = y
+  p.color = '#F00'
+  p.radius = 0.1
+  p.alpha = 0.5
+  p.lineWidth = 6
+  p.draw = function () {
+    ctx.globalAlpha = p.alpha
+    ctx.beginPath()
+    ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, true)
+    ctx.lineWidth = p.lineWidth
+    ctx.strokeStyle = p.color
+    ctx.stroke()
+    ctx.globalAlpha = 1
+  }
+  return p
+}
+
+function renderParticule (anim) {
+  for (var i = 0; i < anim.animatables.length; i++) {
+    anim.animatables[i].target.draw()
+  }
+}
+
+function animateParticules (x, y) {
+  var circle = createCircle(x, y)
+  var particules = []
+  for (var i = 0; i < numberOfParticules; i++) {
+    particules.push(createParticule(x, y))
+  }
+  anime.timeline().add({
+    targets: particules,
+    x: function (p) {
+      return p.endPos.x
+    },
+    y: function (p) {
+      return p.endPos.y
+    },
+    radius: 0.1,
+    duration: anime.random(1200, 1800),
+    easing: 'easeOutExpo',
+    update: renderParticule
+  })
+    .add({
+      targets: circle,
+      radius: anime.random(80, 160),
+      lineWidth: 0,
+      alpha: {
+        value: 0,
+        easing: 'linear',
+        duration: anime.random(600, 800)
+      },
+      duration: anime.random(1200, 1800),
+      easing: 'easeOutExpo',
+      update: renderParticule,
+      offset: 0
+    })
+}
