@@ -5,13 +5,19 @@
         <link>http://yoursite.com</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
-        <pubDate>Fri, 21 Aug 2020 00:02:45 +0800</pubDate>
-        <lastBuildDate>Fri, 21 Aug 2020 00:02:45 +0800</lastBuildDate>
+        <pubDate>Fri, 21 Aug 2020 17:53:22 +0800</pubDate>
+        <lastBuildDate>Fri, 21 Aug 2020 17:53:22 +0800</lastBuildDate>
+        <category>java</category>
+        <category>类</category>
+        <category>面向对象</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/21/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</guid>
+            <guid isPermalink="true">http://yoursite.com/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</guid>
             <title>Java学习-类的隐藏机制（封装性）</title>
-            <link>http://yoursite.com/2020/08/21/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</link>
-            <pubDate>Fri, 21 Aug 2020 00:02:45 +0800</pubDate>
+            <link>http://yoursite.com/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</link>
+            <category>java</category>
+            <category>类</category>
+            <category>面向对象</category>
+            <pubDate>Fri, 21 Aug 2020 17:53:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-封装的含义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-封装的含义&#34;&gt;#&lt;/a&gt; 1、封装的含义&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;封装&lt;/strong&gt;（encapsulation）是面向对象的三要素之一（其它两个是&lt;strong&gt;继承&lt;/strong&gt;和&lt;strong&gt;多态&lt;/strong&gt;），它有两成含义：&lt;br&gt;
 1、将数据（属性）和函数（行为）放在一个独立的类中，使类成为一个独立的单元。&lt;br&gt;

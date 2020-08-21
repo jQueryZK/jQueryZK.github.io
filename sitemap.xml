@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</loc>
     
     <lastmod>2020-08-21</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/08/21/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</loc>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2020-08-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2020-08-21</lastmod>
     
@@ -24,10 +31,31 @@
   </url>
 
   
+  <url>
+    <loc>http://yoursite.com/tags/java/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/%E7%B1%BB/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
-    <loc>http://yoursite.com/categories/java/</loc>
+    <loc>http://yoursite.com/categories/java%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
