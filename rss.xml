@@ -1,23 +1,17 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title> | jQueryZK</title>
-        <subtitle></subtitle>
-        <icon>http://yoursite.com/images/favicon.ico</icon>
+        <title>jQueryZK Blog</title>
         <link>http://yoursite.com</link>
-        <author>
-          <name>jQueryZK</name>
-        </author>
         <description></description>
         <language>en</language>
-        <pubDate>Thu, 20 Aug 2020 18:46:26 +0800</pubDate>
-        <lastBuildDate>Thu, 20 Aug 2020 18:46:26 +0800</lastBuildDate>
-        <category term=" " />
+        <pubDate>Fri, 21 Aug 2020 00:02:45 +0800</pubDate>
+        <lastBuildDate>Fri, 21 Aug 2020 00:02:45 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/20/categories/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</guid>
+            <guid isPermalink="true">http://yoursite.com/2020/08/21/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</guid>
             <title></title>
-            <link>http://yoursite.com/2020/08/20/categories/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</link>
-            <pubDate>Thu, 20 Aug 2020 18:46:26 +0800</pubDate>
+            <link>http://yoursite.com/2020/08/21/java/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</link>
+            <pubDate>Fri, 21 Aug 2020 00:02:45 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;title: Java 学习 - 类的隐藏机制（封装性）&lt;/p&gt;
 &lt;h1 id=&#34;1-封装的含义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-封装的含义&#34;&gt;#&lt;/a&gt; 1、封装的含义&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;封装&lt;/strong&gt;（encapsulation）是面向对象的三要素之一（其它两个是&lt;strong&gt;继承&lt;/strong&gt;和&lt;strong&gt;多态&lt;/strong&gt;），它有两成含义：&lt;br /&gt;
