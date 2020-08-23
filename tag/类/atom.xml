@@ -7,6 +7,9 @@
     <category term="java" />
     <category term="类" />
     <category term="面向对象" />
+    <category term="栈" />
+    <category term="数据结构" />
+    <category term="逆波兰表达式" />
     <entry>
         <id>http://yoursite.com/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</id>
         <title>Java学习-类的隐藏机制（封装性）</title>
