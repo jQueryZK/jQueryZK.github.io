@@ -13,6 +13,13 @@
     <category term="算法" />
     <category term="环形链表" />
     <category term="约瑟夫" />
+    <category term="设计模式" />
+    <category term="七大原则" />
+    <category term="计算机网络" />
+    <category term="网络体系" />
+    <category term="JavaWeb" />
+    <category term="JSP" />
+    <category term="JavaBean" />
     <entry>
         <id>http://yoursite.com/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</id>
         <title>Java学习-类的隐藏机制（封装性）</title>

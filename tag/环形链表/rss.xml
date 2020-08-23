@@ -16,6 +16,13 @@
         <category>算法</category>
         <category>环形链表</category>
         <category>约瑟夫</category>
+        <category>设计模式</category>
+        <category>七大原则</category>
+        <category>计算机网络</category>
+        <category>网络体系</category>
+        <category>JavaWeb</category>
+        <category>JSP</category>
+        <category>JavaBean</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</guid>
             <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>
