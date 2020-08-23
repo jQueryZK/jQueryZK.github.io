@@ -13,6 +13,9 @@
         <category>栈</category>
         <category>数据结构</category>
         <category>逆波兰表达式</category>
+        <category>算法</category>
+        <category>环形链表</category>
+        <category>约瑟夫</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</guid>
             <title>数据结构（Java实现）-详解栈（实现中缀表达式计算器、逆波兰计算器   中缀表达式转逆波兰表达式过程）</title>
@@ -24,7 +27,7 @@
             <pubDate>Sun, 23 Aug 2020 16:04:57 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-栈stack的介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-栈stack的介绍&#34;&gt;#&lt;/a&gt; 1、栈（stack）的介绍：&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;栈是一个&lt;font color=red &gt;先入后出、后入先出的&lt;strong&gt;有序列表。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;栈是一个先入后出、后入先出的&lt;strong&gt;有序列表。&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;栈是限制线性表中元素的插入和删除只能在线性表的同一端进行的一种特殊线性表。允许插入和删除的一端为变化端，称为&lt;strong&gt;栈顶（Top）&lt;/strong&gt;，另一端为固定端，称为&lt;strong&gt;栈底（Bottom）&lt;/strong&gt;。&lt;/li&gt;
 &lt;li&gt;根据栈的定义可知，最先放入栈中的元素在栈底，最后放入的元素在栈顶，而删除元素刚好相反，最后放入的元素最先删除     （类似于子弹匣）&lt;/li&gt;
 &lt;/ol&gt;
