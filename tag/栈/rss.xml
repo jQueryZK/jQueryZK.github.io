@@ -23,6 +23,18 @@
         <category>JavaWeb</category>
         <category>JSP</category>
         <category>JavaBean</category>
+        <category>python</category>
+        <category>网络爬虫</category>
+        <category>数据可视化</category>
+        <category>pyecharts</category>
+        <category>sparsearray</category>
+        <category>数组</category>
+        <category>稀疏数组</category>
+        <category>队列</category>
+        <category>循环队列</category>
+        <category>单链表</category>
+        <category>学生成绩管理系统</category>
+        <category>面试题</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</guid>
             <title>数据结构（Java实现）-详解栈（实现中缀表达式计算器、逆波兰计算器   中缀表达式转逆波兰表达式过程）</title>

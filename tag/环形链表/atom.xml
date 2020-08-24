@@ -20,6 +20,18 @@
     <category term="JavaWeb" />
     <category term="JSP" />
     <category term="JavaBean" />
+    <category term="python" />
+    <category term="网络爬虫" />
+    <category term="数据可视化" />
+    <category term="pyecharts" />
+    <category term="sparsearray" />
+    <category term="数组" />
+    <category term="稀疏数组" />
+    <category term="队列" />
+    <category term="循环队列" />
+    <category term="单链表" />
+    <category term="学生成绩管理系统" />
+    <category term="面试题" />
     <entry>
         <id>http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</id>
         <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>

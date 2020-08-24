@@ -23,6 +23,18 @@
         <category>JavaWeb</category>
         <category>JSP</category>
         <category>JavaBean</category>
+        <category>python</category>
+        <category>网络爬虫</category>
+        <category>数据可视化</category>
+        <category>pyecharts</category>
+        <category>sparsearray</category>
+        <category>数组</category>
+        <category>稀疏数组</category>
+        <category>队列</category>
+        <category>循环队列</category>
+        <category>单链表</category>
+        <category>学生成绩管理系统</category>
+        <category>面试题</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/23/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</guid>
             <title>J计算机网络（一）-总结计算机网络体系结构</title>

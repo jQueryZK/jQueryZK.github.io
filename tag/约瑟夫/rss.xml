@@ -23,6 +23,18 @@
         <category>JavaWeb</category>
         <category>JSP</category>
         <category>JavaBean</category>
+        <category>python</category>
+        <category>网络爬虫</category>
+        <category>数据可视化</category>
+        <category>pyecharts</category>
+        <category>sparsearray</category>
+        <category>数组</category>
+        <category>稀疏数组</category>
+        <category>队列</category>
+        <category>循环队列</category>
+        <category>单链表</category>
+        <category>学生成绩管理系统</category>
+        <category>面试题</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</guid>
             <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>
