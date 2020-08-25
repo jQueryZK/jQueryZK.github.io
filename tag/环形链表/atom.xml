@@ -32,6 +32,17 @@
     <category term="单链表" />
     <category term="学生成绩管理系统" />
     <category term="面试题" />
+    <category term="多态性" />
+    <category term="重写" />
+    <category term="重载" />
+    <category term="访问权限" />
+    <category term="递归" />
+    <category term="迷宫回溯" />
+    <category term="继承" />
+    <category term="super关键字" />
+    <category term="回溯" />
+    <category term="八皇后" />
+    <category term="Object类" />
     <entry>
         <id>http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</id>
         <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>

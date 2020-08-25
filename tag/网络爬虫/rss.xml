@@ -5,8 +5,8 @@
         <link>http://yoursite.com</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
-        <pubDate>Mon, 24 Aug 2020 11:42:42 +0800</pubDate>
-        <lastBuildDate>Mon, 24 Aug 2020 11:42:42 +0800</lastBuildDate>
+        <pubDate>Tue, 25 Aug 2020 21:05:52 +0800</pubDate>
+        <lastBuildDate>Tue, 25 Aug 2020 21:05:52 +0800</lastBuildDate>
         <category>java</category>
         <category>类</category>
         <category>面向对象</category>
@@ -35,13 +35,24 @@
         <category>单链表</category>
         <category>学生成绩管理系统</category>
         <category>面试题</category>
+        <category>多态性</category>
+        <category>重写</category>
+        <category>重载</category>
+        <category>访问权限</category>
+        <category>递归</category>
+        <category>迷宫回溯</category>
+        <category>继承</category>
+        <category>super关键字</category>
+        <category>回溯</category>
+        <category>八皇后</category>
+        <category>Object类</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/24/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</guid>
+            <guid isPermalink="true">http://yoursite.com/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</guid>
             <title>python网络爬虫-爬虫实战-(爬取网易云薛之谦歌单里歌曲并下载)</title>
-            <link>http://yoursite.com/2020/08/24/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</link>
+            <link>http://yoursite.com/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</link>
             <category>python</category>
             <category>网络爬虫</category>
-            <pubDate>Mon, 24 Aug 2020 11:42:42 +0800</pubDate>
+            <pubDate>Tue, 25 Aug 2020 21:05:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-导入要用到的库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-导入要用到的库&#34;&gt;#&lt;/a&gt; 1、导入要用到的库&lt;/h1&gt;
 &lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;#导入库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; requests&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; fake_useragent &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; UserAgent&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; lxml &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; etree&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; re&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;很多初学 python 的同学不知道如何下载第三方库，我在这介绍一种和简单的方法&lt;br&gt;

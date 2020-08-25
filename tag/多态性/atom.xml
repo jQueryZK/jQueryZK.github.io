@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://yoursite.com</id>
+    <title>jQueryZK Blog • Posts by &#34;多态性&#34; tag</title>
+    <link href="http://yoursite.com" />
+    <updated>2020-08-25T13:03:31.402Z</updated>
+    <category term="java" />
+    <category term="类" />
+    <category term="面向对象" />
+    <category term="栈" />
+    <category term="数据结构" />
+    <category term="逆波兰表达式" />
+    <category term="算法" />
+    <category term="环形链表" />
+    <category term="约瑟夫" />
+    <category term="设计模式" />
+    <category term="七大原则" />
+    <category term="计算机网络" />
+    <category term="网络体系" />
+    <category term="JavaWeb" />
+    <category term="JSP" />
+    <category term="JavaBean" />
+    <category term="python" />
+    <category term="网络爬虫" />
+    <category term="数据可视化" />
+    <category term="pyecharts" />
+    <category term="sparsearray" />
+    <category term="数组" />
+    <category term="稀疏数组" />
+    <category term="队列" />
+    <category term="循环队列" />
+    <category term="单链表" />
+    <category term="学生成绩管理系统" />
+    <category term="面试题" />
+    <category term="多态性" />
+    <category term="重写" />
+    <category term="重载" />
+    <category term="访问权限" />
+    <category term="递归" />
+    <category term="迷宫回溯" />
+    <category term="继承" />
+    <category term="super关键字" />
+    <category term="回溯" />
+    <category term="八皇后" />
+    <category term="Object类" />
+    <entry>
+        <id>http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/</id>
+        <title>Java学习-多态性</title>
+        <link rel="alternate" href="http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/"/>
+        <content type="html">&lt;h1 id=&#34;1-面向对象三特征之一多态性&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-面向对象三特征之一多态性&#34;&gt;#&lt;/a&gt; 1、面向对象三特征之一：多态性&lt;/h1&gt;
+&lt;p&gt;1、多态性，是面向对象的最重要的概念，在 java 中有两种体现:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;方法的重载（overload）和重写（override）&lt;/li&gt;
+&lt;li&gt;对象的多态性 ------ 可以直接应用在抽象类和接口上&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2、Java 引用变量有两个类型：编译时的类型和运行时的类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编译时类型由声明该变量时使用的类型决定。&lt;/li&gt;
+&lt;li&gt;运行时类型由实际赋给该变量的对象决定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;若编译时类型和运行时类型不一致，就出现多态（Polymorphism）------- 这个多态就是对象的多态&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;子类对象的实例化过程：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200812095406924.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2-对象的多态&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-对象的多态&#34;&gt;#&lt;/a&gt; 2、对象的多态&lt;/h1&gt;
+&lt;h2 id=&#34;21在java中子类的对象可以替代父类的的对象使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#21在java中子类的对象可以替代父类的的对象使用&#34;&gt;#&lt;/a&gt; 2.1 在 Java 中，子类的对象可以替代父类的的对象使用：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一个变量只能有一种确定的数据类型&lt;/li&gt;
+&lt;li&gt;一个引用类型变量可能指向（引用）多种不同类型的对象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Person  p = new Student();&lt;br&gt;
+Person  e = new Student ();//Person 类型的变量 e，指向 Student 类型的对象&lt;br&gt;
+子类可看做是特殊的父类，所以&lt;strong&gt;父类类型的引用可以指向子类的对象：&lt;/strong&gt; 向上转型（upcasting）（把子类的对象给父类类型的变量引用）&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Person p = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Person();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;p = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Student();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;问：上面代码的当前这个引用对象 p 引用的是哪个类实例对象？答案是：Student 类实例对象&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200812103553841.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;22成员变量属性的调用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#22成员变量属性的调用&#34;&gt;#&lt;/a&gt; 2.2 成员变量（属性）的调用：&lt;/h2&gt;
+&lt;p&gt;一个引用类型变量如果声明为父类的类型，但实际引用的是子类对象，那么该变量就不能再访问子类中添加拓展的成员变量和方法&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Student m = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Student();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;m.school = &lt;span class=&#34;string&#34;&gt;&amp;quot;csdn&amp;quot;&lt;/span&gt;;&lt;span class=&#34;comment&#34;&gt;//合法，Student类中有school成员变量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Person e = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Student();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;e.school = &lt;span class=&#34;string&#34;&gt;&amp;quot;csdn&amp;quot;&lt;/span&gt;;&lt;span class=&#34;comment&#34;&gt;//非法，Person类没有school成员变量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;成员变量是在编译时确定的，编译时 e 为 Person 类型，没有 school 成员变量，因而编译出错。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;23虚拟方法的调用子类中含有父类的重写方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#23虚拟方法的调用子类中含有父类的重写方法&#34;&gt;#&lt;/a&gt; 2.3 虚拟方法的调用（子类中含有父类的重写方法）：&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;Person&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; String name;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; age;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;showInfo&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;以下是Person类的showInfo方法：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		System.out.println(&lt;span class=&#34;keyword&#34;&gt;this&lt;/span&gt;.name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		System.out.println(&lt;span class=&#34;keyword&#34;&gt;this&lt;/span&gt;.age);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;setInfo&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String name,&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; age)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;this&lt;/span&gt;.name = name;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;this&lt;/span&gt;.age = age;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;Student&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;Person&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; String school;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;showInfo&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;以下是Student类的showInfo方法：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		System.out.println(&lt;span class=&#34;keyword&#34;&gt;this&lt;/span&gt;.name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		System.out.println(&lt;span class=&#34;keyword&#34;&gt;this&lt;/span&gt;.age);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;正常的方法调用：&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Person p = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Person();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;p.showInfo();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Student s = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Student();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;s.showInfo();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;虚拟方法调用（多态情况下）：&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Person e = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Student();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;e.showInfo(); &lt;span class=&#34;comment&#34;&gt;//调用的是Student类的showInfo()方法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200812113006375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+&lt;strong&gt;动态绑定：&lt;/strong&gt;&lt;br&gt;
+方法的调用是在运行时确定的，编译时 e 为 Person 类型，但运行时 e 为 Student 类型，所以调用的是 Student 类的 showInfo () 方法&lt;/p&gt;
+&lt;h1 id=&#34;3-小结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-小结&#34;&gt;#&lt;/a&gt; 3、小结&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;前提：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;需要存在继承或者实现关系&lt;/li&gt;
+&lt;li&gt;需要覆盖操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;成员方法：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编译时：要查看引用变量所属的类中是否有所调用的方法&lt;br&gt;
+运行时：调用实际对象所属的类中的重写方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;成员变量：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不具备多态性，只看引用变量所属的类&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="java" />
+        <category term="面向对象" />
+        <category term="多态性" />
+        <updated>2020-08-25T13:03:31.402Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,381 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>J计算机网络（一）-总结计算机网络体系结构 | jQueryZK Blog</title><meta name="description" content="学习目标：  # 一、概念、功能、组成、分类 # 1、计算机网络的概念 计算机网络是一个将分散的、具体独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享与信息传递的系统。（计算机网络是互连的、自治的计算机集合） 互连：互联互通，通信链路        自治：无主从关系  # 2、计算机网络的功能  数据通信（连通性）：比如不同主机间传送文档，发送邮件 资源共享：硬件共享"><meta name="keywords" content="计算机网络,网络体系"><meta name="author" content="jQueryZK"><meta name="copyright" content="jQueryZK"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="J计算机网络（一）-总结计算机网络体系结构"><meta property="og:url" content="http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"><meta property="og:site_name" content="jQueryZK Blog"><meta property="og:description" content="学习目标：  # 一、概念、功能、组成、分类 # 1、计算机网络的概念 计算机网络是一个将分散的、具体独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享与信息传递的系统。（计算机网络是互连的、自治的计算机集合） 互连：互联互通，通信链路        自治：无主从关系  # 2、计算机网络的功能  数据通信（连通性）：比如不同主机间传送文档，发送邮件 资源共享：硬件共享"><meta property="og:image" content="https://img-blog.csdnimg.cn/20200823213402794.jpg"><meta property="article:published_time" content="2020-08-25T13:05:52.372Z"><meta property="article:modified_time" content="2020-08-23T14:19:12.491Z"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.0.2',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime: '',
+  last_push_date: 'days ago',
+  copyright: undefined,
+  ClickShowText: {"text":"I,LOVE,YOU","fontSize":"15px"},
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+      const now = new Date()
+      const expiryDay = ttl * 86400000
+      const item = {
+        value: value,
+        expiry: now.getTime() + expiryDay,
+      }
+      localStorage.setItem(key, JSON.stringify(item))
+    },
+  
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-08-23 22:19:12'
+}</script><noscript><style type="text/css">
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var autoChangeMode = 'false'
+var t = saveToLocal.get('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (saveToLocal.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/Lete.css"><meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="jQueryZK Blog" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">19</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">39</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div id="body-wrap"><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80-%E6%A6%82%E5%BF%B5-%E5%8A%9F%E8%83%BD-%E7%BB%84%E6%88%90-%E5%88%86%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text"> 一、概念、功能、组成、分类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text"> 1、计算机网络的概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="toc-number">1.2.</span> <span class="toc-text"> 2、计算机网络的功能</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E7%BB%84%E6%88%90"><span class="toc-number">1.3.</span> <span class="toc-text"> 3、计算机网络的组成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%88%86%E7%B1%BB"><span class="toc-number">1.4.</span> <span class="toc-text"> 4、计算机网络的分类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%80%BB%E7%BB%93"><span class="toc-number">1.5.</span> <span class="toc-text"> 5、总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C-%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%BB%84%E7%BB%87"><span class="toc-number">2.</span> <span class="toc-text"> 二、标准化工作及相关组织</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C"><span class="toc-number">2.1.</span> <span class="toc-text"> 1、标准化工作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C%E7%9A%84%E7%9B%B8%E5%85%B3%E7%BB%84%E7%BB%87"><span class="toc-number">2.2.</span> <span class="toc-text"> 2、标准化工作的相关组织</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%80%BB%E7%BB%93"><span class="toc-number">2.3.</span> <span class="toc-text"> 3、总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89-%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E4%B9%8B%E9%80%9F%E7%8E%87-%E5%B8%A6%E5%AE%BD-%E5%90%9E%E5%90%90%E9%87%8F"><span class="toc-number">3.</span> <span class="toc-text"> 三、性能指标之速率、带宽、吞吐量</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E9%80%9F%E7%8E%87"><span class="toc-number">3.1.</span> <span class="toc-text"> 1、速率</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%B8%A6%E5%AE%BD"><span class="toc-number">3.2.</span> <span class="toc-text"> 2、带宽</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%90%9E%E5%90%90%E9%87%8F"><span class="toc-number">3.3.</span> <span class="toc-text"> 3、吞吐量</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B-%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E4%B9%8B%E6%97%B6%E5%BB%B6%E6%97%B6%E5%BB%B6%E5%B8%A6%E5%AE%BD%E7%A7%AF-%E5%BE%80%E8%BF%94%E6%97%B6%E9%97%B4rtt-%E5%88%A9%E7%94%A8%E7%8E%87"><span class="toc-number">4.</span> <span class="toc-text"> 四、性能指标之时延，时延带宽积、往返时间 RTT、利用率</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%97%B6%E5%BB%B6"><span class="toc-number">4.1.</span> <span class="toc-text"> 1、时延</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%97%B6%E5%BB%B6%E5%B8%A6%E5%AE%BD%E7%A7%AF"><span class="toc-number">4.2.</span> <span class="toc-text"> 2、时延带宽积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%BE%80%E8%BF%94%E6%97%B6%E5%BB%B6rtt"><span class="toc-number">4.3.</span> <span class="toc-text"> 3、往返时延 RTT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%88%A9%E7%94%A8%E7%8E%87"><span class="toc-number">4.4.</span> <span class="toc-text"> 4、利用率</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%80%BB%E7%BB%93-2"><span class="toc-number">4.5.</span> <span class="toc-text"> 5、总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94-%E5%88%86%E5%B1%82%E7%BB%93%E6%9E%84-%E5%8D%8F%E8%AE%AE-%E6%8E%A5%E5%8F%A3-%E6%9C%8D%E5%8A%A1"><span class="toc-number">5.</span> <span class="toc-text"> 五、分层结构、协议、接口、服务</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%88%86%E5%B1%82%E7%9A%84%E5%8E%9F%E5%88%99"><span class="toc-number">5.1.</span> <span class="toc-text"> 1、分层的原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%9E%E4%BD%93-%E5%8D%8F%E8%AE%AE-%E6%8E%A5%E5%8F%A3-%E6%9C%8D%E5%8A%A1"><span class="toc-number">5.2.</span> <span class="toc-text"> 2、实体、协议、接口、服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%A6%82%E5%BF%B5%E6%80%BB%E7%BB%93"><span class="toc-number">5.3.</span> <span class="toc-text"> 3、概念总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD-osi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B"><span class="toc-number">6.</span> <span class="toc-text"> 六、OSI 参考模型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-isoosi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E6%80%8E%E4%B9%88%E6%9D%A5%E7%9A%84"><span class="toc-number">6.1.</span> <span class="toc-text"> 1、ISO&#x2F;OSI 参考模型怎么来的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%B8%83%E5%B1%82%E7%BB%93%E6%9E%84"><span class="toc-number">6.2.</span> <span class="toc-text"> 2、七层结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-osi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E8%A7%A3%E9%87%8A%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B"><span class="toc-number">6.3.</span> <span class="toc-text"> 3、OSI 参考模型解释通信过程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%90%84%E5%B1%82%E5%8A%9F%E8%83%BD"><span class="toc-number">6.4.</span> <span class="toc-text"> 4、各层功能</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%83-tcpip-%E6%A8%A1%E5%9E%8B-5%E5%B1%82%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.</span> <span class="toc-text"> 七、TCP&#x2F;IP 模型 &amp; 5 层参考模型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-osi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E4%B8%8Etcpip%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E7%9B%B8%E5%90%8C%E7%82%B9"><span class="toc-number">7.1.</span> <span class="toc-text"> 1、OSI 参考模型与 TCP&#x2F;IP 参考模型相同点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-osi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E4%B8%8Etcpip%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E4%B8%8D%E5%90%8C%E7%82%B9"><span class="toc-number">7.2.</span> <span class="toc-text"> 2、OSI 参考模型与 TCP&#x2F;IP 参考模型不同点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-5%E5%B1%82%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.3.</span> <span class="toc-text"> 3、5 层参考模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-5%E5%B1%82%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B%E9%A2%9D%E6%95%B0%E6%8D%AE%E5%B0%81%E8%A3%85%E4%B8%8E%E8%A7%A3%E5%B0%81%E8%A3%85"><span class="toc-number">7.4.</span> <span class="toc-text"> 4、5 层参考模型额数据封装与解封装</span></a></li></ol></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(http://pic.rmb.bdstatic.com/6db2b11c57223990aa3101ac455778cd.jpeg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">jQueryZK Blog</a></span><span class="menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">J计算机网络（一）-总结计算机网络体系结构</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2020-08-25T13:05:52.372Z" title="Created 2020-08-25 21:05:52">2020-08-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2020-08-23T14:19:12.491Z" title="Updated 2020-08-23 22:19:12">2020-08-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">2.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>6min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p>学习目标：<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816161827830.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="一-概念-功能-组成-分类"><a class="markdownIt-Anchor" href="#一-概念-功能-组成-分类">#</a> 一、概念、功能、组成、分类</h1>
+<h2 id="1-计算机网络的概念"><a class="markdownIt-Anchor" href="#1-计算机网络的概念">#</a> 1、计算机网络的概念</h2>
+<p>计算机网络是一个将分散的、具体独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享与信息传递的系统。（计算机网络是互连的、自治的计算机集合）<br>
+<strong>互连</strong>：互联互通，通信链路        <strong>自治</strong>：无主从关系<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815201600891.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="2-计算机网络的功能"><a class="markdownIt-Anchor" href="#2-计算机网络的功能">#</a> 2、计算机网络的功能</h2>
+<ol>
+<li>数据通信（连通性）：比如不同主机间传送文档，发送邮件</li>
+<li>资源共享：硬件共享，软件共享，数据共享</li>
+<li>分布式处理：多台计算机各自承担同一工作任务的不同部分    （Hadoop 平台）</li>
+<li>提高可靠性：不同主机间可通过计算机网络进行替代</li>
+<li>负载均衡：多台计算机可以同时进行工作，个计算机之间更亲密</li>
+</ol>
+<h2 id="3-计算机网络的组成"><a class="markdownIt-Anchor" href="#3-计算机网络的组成">#</a> 3、计算机网络的组成</h2>
+<p>1、组成部分：硬件、软件、协议<br>
+ 2、工作方式：</p>
+<ul>
+<li>边缘部分：用户直接使用，有 C/S 方式  和   P2P 方式</li>
+<li>核心部分：为边缘部分服务</li>
+</ul>
+<p>3、功能组成：</p>
+<ol>
+<li>通信子网：实现数据通信</li>
+<li>资源子网：实现资源共享 / 数据处理<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815204123705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></li>
+</ol>
+<h2 id="4-计算机网络的分类"><a class="markdownIt-Anchor" href="#4-计算机网络的分类">#</a> 4、计算机网络的分类</h2>
+<p>1、按分布范围分：广域网 WAN、城域网 MAN、局域网 WAN、个人区域网 PAN   （后面会详解）<br>
+2、按使用者分：公用网（中国电信、中国联通）、专用网（国家军队，政府机关，铁路、银行等）<br>
+3、按交换技术分：电路交换、报文交换、分组交换<br>
+ 4、按拓扑结构分：<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815205225372.png#pic_center" alt="在这里插入图片描述"><br>
+ 5、按传送技术分：</p>
+<ul>
+<li>广播式网络：共享公共通信信道</li>
+<li>点对点网络：使用分组存储转发和路由选择机制</li>
+</ul>
+<h2 id="5-总结"><a class="markdownIt-Anchor" href="#5-总结">#</a> 5、总结</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816095334787.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="二-标准化工作及相关组织"><a class="markdownIt-Anchor" href="#二-标准化工作及相关组织">#</a> 二、标准化工作及相关组织</h1>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200815210019943.png#pic_center" alt="在这里插入图片描述"><br>
+要实现不同厂商的硬、软件之间相互连通，必须遵从统一的标准。</p>
+<h2 id="1-标准化工作"><a class="markdownIt-Anchor" href="#1-标准化工作">#</a> 1、标准化工作</h2>
+<p>1、标准的分类：</p>
+<ul>
+<li>法定标准：由权威机构制定的正式的、合法的标准（OSI）</li>
+<li>事实标准：某些公司的产品在竞争中占据了主流，时间长了，这些产品中的协议和技术就成了标准（TCP/IP 协议）</li>
+</ul>
+<p>RFC（Request for Comments）—— 因特网标准的形式<br>
+ RFC 要升为 因特网正式标准的四个阶段：</p>
+<ol>
+<li>因特网草案（Internet Draft）：这个阶段还不是 RFC 文档</li>
+<li>建议标准（Proposed Standard）：从这个阶段开始成为 RFC 文档</li>
+<li>草案标准（Draft Standard）：经过 IETF，IAB 审核</li>
+<li>因特网标准（Internet Standard）</li>
+</ol>
+<h2 id="2-标准化工作的相关组织"><a class="markdownIt-Anchor" href="#2-标准化工作的相关组织">#</a> 2、标准化工作的相关组织</h2>
+<ul>
+<li>国际标准化组织 ISO：建立了 OSI 参考模型、HDLC 协议</li>
+<li>国际电信联盟 ITU：制定通信规则</li>
+<li>国际电气电子工程师协会 IEEE：学术机构、制定了 IEEE802 系列标准，5G 相关协议</li>
+<li>Internet 工程任务组 IETF：负责因特网相关标准的制定 RFC XXXX</li>
+</ul>
+<h2 id="3-总结"><a class="markdownIt-Anchor" href="#3-总结">#</a> 3、总结</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816095555982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="三-性能指标之速率-带宽-吞吐量"><a class="markdownIt-Anchor" href="#三-性能指标之速率-带宽-吞吐量">#</a> 三、性能指标之速率、带宽、吞吐量</h1>
+<h2 id="1-速率"><a class="markdownIt-Anchor" href="#1-速率">#</a> 1、速率</h2>
+<p>速率即数据率或称数据传输率或比特率</p>
+<p>比特（bit）1/0 位。连接在计算机网络上的主机在数字信道上传送数据位数的速率。单位是 b/s，kb/s，Mb/s，Tb/s<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/202008161004034.png#pic_center" alt="在这里插入图片描述"><br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816100647660.png#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="2-带宽"><a class="markdownIt-Anchor" href="#2-带宽">#</a> 2、带宽</h2>
+<ol>
+<li>“带宽” 原本指某个信号具有的频带宽度，即最高频率与最低频率之差，单位是赫兹（Hz）</li>
+<li>计算机网络中，带宽用来表示网络的通信线路传送数据的能力，通常是指单位时间内从网络中的某一点到另一点所能通过的 “最高数据率”，单位是 “比特每秒”，b/s，kb/s，Mb/s，Gb/s。（网络设备所支持的最高速度）</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816101903553.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="3-吞吐量"><a class="markdownIt-Anchor" href="#3-吞吐量">#</a> 3、吞吐量</h2>
+<p>1、吞吐量表示在单位时间内通过某个网络（或信道、接口）的数据量。单位 b/s，kb/s，Mb/s<br>
+2、吞吐量受网络的带宽或网络的额定速率的限制</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816102828713.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="四-性能指标之时延时延带宽积-往返时间rtt-利用率"><a class="markdownIt-Anchor" href="#四-性能指标之时延时延带宽积-往返时间rtt-利用率">#</a> 四、性能指标之时延，时延带宽积、往返时间 RTT、利用率</h1>
+<h2 id="1-时延"><a class="markdownIt-Anchor" href="#1-时延">#</a> 1、时延</h2>
+<p>1、时延是指（报文 / 分组 / 比特流）从网络（或链路）的一端传送到另一端所需的时间。也叫延迟或迟延。单位是 s。<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816104641259.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="2-时延带宽积"><a class="markdownIt-Anchor" href="#2-时延带宽积">#</a> 2、时延带宽积</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816104604881.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="3-往返时延rtt"><a class="markdownIt-Anchor" href="#3-往返时延rtt">#</a> 3、往返时延 RTT</h2>
+<p>1、RTT 表示从发送数据开始，到发送方收到接收方的确认（接收方收到数据后立即发送确认），总共经历的时延。<br>
+（RTT 越大，在收到确认之前，可以发送的数据越多）<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816105709919.png#pic_center" alt="在这里插入图片描述"><br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816105723204.png#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="4-利用率"><a class="markdownIt-Anchor" href="#4-利用率">#</a> 4、利用率</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816110005376.png#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="5-总结-2"><a class="markdownIt-Anchor" href="#5-总结-2">#</a> 5、总结</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816110107946.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="五-分层结构-协议-接口-服务"><a class="markdownIt-Anchor" href="#五-分层结构-协议-接口-服务">#</a> 五、分层结构、协议、接口、服务</h1>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816110549547.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="1-分层的原则"><a class="markdownIt-Anchor" href="#1-分层的原则">#</a> 1、分层的原则</h2>
+<ol>
+<li>各层之间相互独立，每层只实现一种相对独立的功能</li>
+<li>每层之间界面自然清晰，易于理解，相互交流尽可能少</li>
+<li>结构上下可分割开。每层都采用最合适的技术来实现</li>
+<li>保持下层对上层的独立性，上层单向使用下层提供的服务</li>
+<li>整个分层结构应该能促进标准化工作<br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816112940219.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></li>
+</ol>
+<h2 id="2-实体-协议-接口-服务"><a class="markdownIt-Anchor" href="#2-实体-协议-接口-服务">#</a> 2、实体、协议、接口、服务</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816112957961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816113023991.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816113042478.png#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="3-概念总结"><a class="markdownIt-Anchor" href="#3-概念总结">#</a> 3、概念总结</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020081611323243.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="六-osi参考模型"><a class="markdownIt-Anchor" href="#六-osi参考模型">#</a> 六、OSI 参考模型</h1>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816144158637.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="1-isoosi参考模型怎么来的"><a class="markdownIt-Anchor" href="#1-isoosi参考模型怎么来的">#</a> 1、ISO/OSI 参考模型怎么来的</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816144614489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>
+<strong>（理论成功，市场失败）</strong></p>
+<h2 id="2-七层结构"><a class="markdownIt-Anchor" href="#2-七层结构">#</a> 2、七层结构</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816145046920.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="3-osi参考模型解释通信过程"><a class="markdownIt-Anchor" href="#3-osi参考模型解释通信过程">#</a> 3、OSI 参考模型解释通信过程</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816145922913.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>
+<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816150740695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="4-各层功能"><a class="markdownIt-Anchor" href="#4-各层功能">#</a> 4、各层功能</h2>
+<p>1、应用层：所有能和用户交互产生网络流量的程序</p>
+<p>典型的应用层服务：文件传输（FTP）、电子邮件（SMTP）、万维网（HTTP）</p>
+<p>2、表示层：用于处理在两个通信系统中交换信息的表示方式（语法和语义）（主要协议 JPEG、ASCII）</p>
+<ul>
+<li>功能一：数据格式变换（类似于翻译官）</li>
+<li>功能二：数据加密和解密</li>
+<li>功能三：数据压缩和恢复</li>
+</ul>
+<p>3、会话层：向表示层实体 / 用户进程提供建立连接并在连接上有序地传输数据。这是会话，也是建立同步（SYN）。</p>
+<p>（主要协议 ADSP、ASP）</p>
+<ul>
+<li>功能一：建立、管理、终止会话</li>
+<li>功能二：使用校验点可使会话在通信失效时从校验点 / 同步点继续恢复通信、实现数据同步（适用于传输大文件）</li>
+</ul>
+<p>4、传输层：负责主机中两个进程的通信，即端到端的通信。传输单位是报文段或是用户数据报。（主要协议：TCP、UDP）</p>
+<ul>
+<li>功能一：可靠传输、不可靠传输</li>
+<li>功能二：差错控制</li>
+<li>功能三：流量控制</li>
+<li>功能四：复用分用</li>
+</ul>
+<p>复用：多个应用层进程可同时使用下面运输层的服务<br>
+分用：运输层把收到的信息分别交付给上面应用层中相应的进程</p>
+<p>5、网络层：主要任务是把分组从源端传到目的端，为分组交换网上的不同主机提供通信服务。网络层传输单位是数据报。</p>
+<p>（主要协议：IP、IPX、ICMP、IGMP、ARP、RARP、OSPF）</p>
+<ul>
+<li>功能一：路由选择、最佳路径</li>
+<li>功能二：流量控制</li>
+<li>功能三：差错控制</li>
+<li>功能四：拥塞控制（若所有结点都开不及接受分组，而要丢弃大量分组的话，网络就要处于拥塞状态。因此要采取一定的措施来缓解这种拥塞）</li>
+</ul>
+<p>6、数据链路层：主要任务是把网络层传下来的数据报组装成帧。书局链路层 / 链路层的传输单位是帧。</p>
+<p>（主要协议 SDLC、HDLC、PPP、STP）</p>
+<ul>
+<li>功能一：成帧（定义帧的开始和结束）</li>
+<li>功能二：差错控制（帧错 + 位错）</li>
+<li>功能三：流量控制</li>
+<li>功能四：访问（接入）控制（控制对信道的访问）</li>
+</ul>
+<p>7、物理层：主要任务是在物理媒体上实现比特流的透明传输。物理层传输单位是比特。（主要协议 Rj45、802.3）</p>
+<p>透明传输：指不管所传输数据是什么样的比特组合，都应当能够在链路上传送。</p>
+<ul>
+<li>功能一：定义接口特性</li>
+<li>功能二：定义传输模式（单工、半双工、双工）</li>
+<li>功能三：定义传输速率</li>
+<li>功能四：比特同步</li>
+<li>功能五：比特编码</li>
+</ul>
+<h1 id="七-tcpip-模型-5层参考模型"><a class="markdownIt-Anchor" href="#七-tcpip-模型-5层参考模型">#</a> 七、TCP/IP 模型 &amp; 5 层参考模型</h1>
+<h2 id="1-osi参考模型与tcpip参考模型相同点"><a class="markdownIt-Anchor" href="#1-osi参考模型与tcpip参考模型相同点">#</a> 1、OSI 参考模型与 TCP/IP 参考模型相同点</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816160432542.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<ol>
+<li>都分层</li>
+<li>都基于独立的协议栈的概念</li>
+<li>可以实现异构网络互联</li>
+</ol>
+<h2 id="2-osi参考模型与tcpip参考模型不同点"><a class="markdownIt-Anchor" href="#2-osi参考模型与tcpip参考模型不同点">#</a> 2、OSI 参考模型与 TCP/IP 参考模型不同点</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816160939352.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="3-5层参考模型"><a class="markdownIt-Anchor" href="#3-5层参考模型">#</a> 3、5 层参考模型</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816161312658.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="4-5层参考模型额数据封装与解封装"><a class="markdownIt-Anchor" href="#4-5层参考模型额数据封装与解封装">#</a> 4、5 层参考模型额数据封装与解封装</h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816161634849.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">jQueryZK</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/">http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a><a class="post-meta__tags" href="/tags/%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB/">网络体系</a></div><div class="post_share"><div class="social-share" data-image="https://img-blog.csdnimg.cn/20200823213402794.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> Donate<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2020/08/25/jsp%E5%92%8CJavaBean/"><img class="next-cover" data-lazy-src="https://img-blog.csdnimg.cn/20200823195811606.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">JavaWeb学习-JSP和JavaBean</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></article></main><footer id="footer" style="background-image: url(http://pic.rmb.bdstatic.com/6db2b11c57223990aa3101ac455778cd.jpeg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By jQueryZK</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="Switch Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    window.valine = new Valine({
+      el: '#vcomment',
+      appId: 'yRHK7lPOBPRrbNm9ndfMxPhs-gzGzoHsz',
+      appKey: 'GFJNJ0K6QqWOLYzqaHRI2MiR',
+      placeholder: '记得留下你的昵称和邮箱，可以快速收到回复',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'en',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '//i0.hdslb.com/bfs/emote/',
+      emojiMaps: {"tv_doge":"6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png","tv_亲亲":"a8111ad55953ef5e3be3327ef94eb4a39d535d06.png","tv_偷笑":"bb690d4107620f1c15cff29509db529a73aee261.png","tv_再见":"180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png","tv_冷漠":"b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png","tv_发怒":"34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png","tv_发财":"34db290afd2963723c6eb3c4560667db7253a21a.png","tv_可爱":"9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png","tv_吐血":"09dd16a7aa59b77baa1155d47484409624470c77.png","tv_呆":"fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png","tv_呕吐":"9f996894a39e282ccf5e66856af49483f81870f3.png","tv_困":"241ee304e44c0af029adceb294399391e4737ef2.png","tv_坏笑":"1f0b87f731a671079842116e0991c91c2c88645a.png","tv_大佬":"093c1e2c490161aca397afc45573c877cdead616.png","tv_大哭":"23269aeb35f99daee28dda129676f6e9ea87934f.png","tv_委屈":"d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png","tv_害羞":"a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png","tv_尴尬":"7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png","tv_微笑":"70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png","tv_思考":"90cf159733e558137ed20aa04d09964436f618a1.png","tv_惊吓":"0d15c7e2ee58e935adc6a7193ee042388adc22af.png"},
+      enableQQ: true,
+      path: window.location.pathname,
+    });
+    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script type="text/javascript" src="/js/Lete.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="/js/third-party/canvas-nest.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script src="/js/third-party/click_heart.js" async="async"></script><script src="/js/third-party/ClickShowText.js" async="async"></script><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/421cf3cc.js","daovoice")
+</script><script>var isChatBtn = true
+daovoice('init', {
+  app_id: '421cf3cc',},{
+  launcher: { 
+     disableLauncherIcon: isChatBtn // 悬浮 ICON 是否显示
+  },
+});
+daovoice('update');
+
+if (isChatBtn) {
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      daovoice('show')
+    });
+  }
+  chatBtnFn()
+} else {
+  if (true) {
+    function chatBtnHide () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: true // 悬浮 ICON 是否显示
+        },
+      });
+    }
+    function chatBtnShow () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: false // 悬浮 ICON 是否显示
+        },
+      });
+    }
+  }
+}</script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"light","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>

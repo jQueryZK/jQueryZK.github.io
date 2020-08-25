@@ -35,10 +35,21 @@
         <category>单链表</category>
         <category>学生成绩管理系统</category>
         <category>面试题</category>
+        <category>多态性</category>
+        <category>重写</category>
+        <category>重载</category>
+        <category>访问权限</category>
+        <category>递归</category>
+        <category>迷宫回溯</category>
+        <category>继承</category>
+        <category>super关键字</category>
+        <category>回溯</category>
+        <category>八皇后</category>
+        <category>Object类</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</guid>
+            <guid isPermalink="true">http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</guid>
             <title>数据结构（Java实现）-详解栈（实现中缀表达式计算器、逆波兰计算器   中缀表达式转逆波兰表达式过程）</title>
-            <link>http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</link>
+            <link>http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</link>
             <category>java</category>
             <category>栈</category>
             <category>数据结构</category>

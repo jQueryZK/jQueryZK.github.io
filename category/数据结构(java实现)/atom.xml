@@ -32,6 +32,17 @@
     <category term="单链表" />
     <category term="学生成绩管理系统" />
     <category term="面试题" />
+    <category term="多态性" />
+    <category term="重写" />
+    <category term="重载" />
+    <category term="访问权限" />
+    <category term="递归" />
+    <category term="迷宫回溯" />
+    <category term="继承" />
+    <category term="super关键字" />
+    <category term="回溯" />
+    <category term="八皇后" />
+    <category term="Object类" />
     <entry>
         <id>http://yoursite.com/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E6%96%B0%E6%B5%AA%E3%80%81%E7%99%BE%E5%BA%A6%E3%80%81%E8%85%BE%E8%AE%AF%EF%BC%89/</id>
         <title>数据结构（Java实现）-单链表常见面试题（新浪、百度、腾讯）</title>
@@ -198,9 +209,9 @@
         <updated>2020-08-24T13:07:09.607Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
+        <id>http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
         <title>数据结构（Java实现）-详解栈（实现中缀表达式计算器、逆波兰计算器   中缀表达式转逆波兰表达式过程）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
+        <link rel="alternate" href="http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;1-栈stack的介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-栈stack的介绍&#34;&gt;#&lt;/a&gt; 1、栈（stack）的介绍：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;栈是一个先入后出、后入先出的&lt;strong&gt;有序列表。&lt;/strong&gt;&lt;/li&gt;
