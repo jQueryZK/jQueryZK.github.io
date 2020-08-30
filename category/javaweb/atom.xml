@@ -43,6 +43,13 @@
     <category term="回溯" />
     <category term="八皇后" />
     <category term="Object类" />
+    <category term="Arrays" />
+    <category term="容器" />
+    <category term="Random类" />
+    <category term="Math类" />
+    <category term="字符串" />
+    <category term="String" />
+    <category term="汉诺塔" />
     <entry>
         <id>http://yoursite.com/2020/08/25/jsp%E5%92%8CJavaBean/</id>
         <title>JavaWeb学习-JSP和JavaBean</title>

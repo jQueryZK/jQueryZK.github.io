@@ -46,6 +46,13 @@
         <category>回溯</category>
         <category>八皇后</category>
         <category>Object类</category>
+        <category>Arrays</category>
+        <category>容器</category>
+        <category>Random类</category>
+        <category>Math类</category>
+        <category>字符串</category>
+        <category>String</category>
+        <category>汉诺塔</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/jsp%E5%92%8CJavaBean/</guid>
             <title>JavaWeb学习-JSP和JavaBean</title>

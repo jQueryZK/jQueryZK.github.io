@@ -46,6 +46,13 @@
         <category>回溯</category>
         <category>八皇后</category>
         <category>Object类</category>
+        <category>Arrays</category>
+        <category>容器</category>
+        <category>Random类</category>
+        <category>Math类</category>
+        <category>字符串</category>
+        <category>String</category>
+        <category>汉诺塔</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/</guid>
             <title>Java学习-多态性</title>

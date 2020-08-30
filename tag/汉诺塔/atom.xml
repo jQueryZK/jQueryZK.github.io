@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://yoursite.com</id>
+    <title>jQueryZK Blog • Posts by &#34;汉诺塔&#34; tag</title>
+    <link href="http://yoursite.com" />
+    <updated>2020-08-26T12:44:19.718Z</updated>
+    <category term="java" />
+    <category term="类" />
+    <category term="面向对象" />
+    <category term="栈" />
+    <category term="数据结构" />
+    <category term="逆波兰表达式" />
+    <category term="算法" />
+    <category term="环形链表" />
+    <category term="约瑟夫" />
+    <category term="设计模式" />
+    <category term="七大原则" />
+    <category term="计算机网络" />
+    <category term="网络体系" />
+    <category term="JavaWeb" />
+    <category term="JSP" />
+    <category term="JavaBean" />
+    <category term="python" />
+    <category term="网络爬虫" />
+    <category term="数据可视化" />
+    <category term="pyecharts" />
+    <category term="sparsearray" />
+    <category term="数组" />
+    <category term="稀疏数组" />
+    <category term="队列" />
+    <category term="循环队列" />
+    <category term="单链表" />
+    <category term="学生成绩管理系统" />
+    <category term="面试题" />
+    <category term="多态性" />
+    <category term="重写" />
+    <category term="重载" />
+    <category term="访问权限" />
+    <category term="递归" />
+    <category term="迷宫回溯" />
+    <category term="继承" />
+    <category term="super关键字" />
+    <category term="回溯" />
+    <category term="八皇后" />
+    <category term="Object类" />
+    <category term="Arrays" />
+    <category term="容器" />
+    <category term="Random类" />
+    <category term="Math类" />
+    <category term="字符串" />
+    <category term="String" />
+    <category term="汉诺塔" />
+    <entry>
+        <id>http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</id>
+        <title>算法（java）-汉诺塔问题（递归回溯）</title>
+        <link rel="alternate" href="http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/"/>
+        <content type="html">&lt;h1 id=&#34;1-汉诺塔问题介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-汉诺塔问题介绍&#34;&gt;#&lt;/a&gt; 1、汉诺塔问题介绍&lt;/h1&gt;
+&lt;p&gt;汉诺塔 (又称河内塔) 问题是源于印度一个古老传说的益智玩具。大梵天创造世界的时候做了三根金刚石柱子，在一根柱子上从下往上按照大小顺序摞着 64 片黄金圆盘。大梵天命令婆罗门把圆盘从下面开始按大小顺序重新摆放在另一根柱子上。并且规定，在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。&lt;br&gt;
+简单分析要求：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有三根柱子&lt;/li&gt;
+&lt;li&gt;一次只能移动一个圆盘&lt;/li&gt;
+&lt;li&gt;小圆盘上不能放比它更大的圆盘&lt;/li&gt;
+&lt;li&gt;需要按从小盘到大盘的顺序重新摆在另一个盘上&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;2-思路分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-思路分析&#34;&gt;#&lt;/a&gt; 2、思路分析&lt;/h1&gt;
+&lt;p&gt;假设我们先给三根柱子分别命名为 A、B、C：&lt;br&gt;
+初始的时候盘按从小到大的顺序依次摆在 A 柱上、而 C 柱作为结果柱。我们的目标就是把 A 柱的所有盘按照本来的从小到大的顺序摆在 C 盘。&lt;br&gt;
+假设 n 为盘的数量；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;n=1 时，直接将 A 中的那个盘移到 C 盘&lt;/li&gt;
+&lt;li&gt;n=2 时，先将 A 盘上最小的移到 B，再将 A 盘剩下那个移到 C，再将 B 盘上的移到 C&lt;/li&gt;
+&lt;li&gt;n=3 时，&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826194912579.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 1、A-&amp;gt;C&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195355760.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 2、A-&amp;gt;B&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195420922.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 3、C-&amp;gt;B&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195511735.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 4、A-&amp;gt;C&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195642944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 5、B-&amp;gt;A&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195731756.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 6、B-&amp;gt;C&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195754504.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ 7、A-&amp;gt;C&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200826195814456.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+我们发现除了当 n=1 时，直接将 A 的盘直接移到 C 柱上。后面 n 为其他值时都需要借助 C 盘先将 A 盘中除最大盘外的 n-1 个盘移到 B 盘然后将 A 中剩下的那个盘移到 C 盘。而此时 A 盘就空了，然后将 A 作为辅助盘再将 B 的所有盘按顺序移到 C 盘。&lt;br&gt;
+&lt;strong&gt;我们可以把将 A 中最大的移到 C 看作中间步&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;中间一步之上可以看成把 A 上 n-1 个盘子通过借助辅助塔（C 塔）移到了 B 上，&lt;/li&gt;
+&lt;li&gt;中间一步之下可以看成把 B 上 n-1 个盘子通过借助辅助塔（A 塔）移到了 C 上；&lt;br&gt;
+最核心的是，我们发现把 A 上 n-1 个盘子通过借助辅助塔（C 塔）移到了 B 上的结果和上一关只有 n-1 个盘的结果是一样的只是这时的目标柱变成了 B，所以可以通过递归来达到我们想要的目标。&lt;br&gt;
+比如假如这一关 n=3：&lt;br&gt;
+1、将 A 中最大盘遮住，将 B 柱当作上一关的 C 柱，按从小到大的顺序依次把 A 上剩下的 n-1 个盘按 n=2 的走法摆在 B 柱上&lt;br&gt;
+ 2、C 空，将 A 中最大的移到 C，A 空&lt;br&gt;
+ 3、将 C 中最大盘遮住，将 C 柱当作上一关的 C 柱，按从小到大的顺序依次把 B 上剩下的 n-1 个盘按 n=2 的走法摆在 C 柱上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;代码实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码实现&#34;&gt;#&lt;/a&gt; 代码实现：&lt;/h1&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;package&lt;/span&gt; com.zhukun;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;test&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;/**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;     * 一共走了多少步&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;     */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; times;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; A = &lt;span class=&#34;string&#34;&gt;&amp;#x27;A&amp;#x27;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; B = &lt;span class=&#34;string&#34;&gt;&amp;#x27;B&amp;#x27;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; C = &lt;span class=&#34;string&#34;&gt;&amp;#x27;C&amp;#x27;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;请输入盘子数：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Scanner s = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Scanner(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; n = s.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;//调用汉诺塔&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        hannoi(n, A, B, C);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.close();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 盘子移动&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;move&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; disk, &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; M, &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; N )&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;第&amp;quot;&lt;/span&gt;+(++times)+&lt;span class=&#34;string&#34;&gt;&amp;quot;次移动, 盘子&amp;quot;&lt;/span&gt;+disk+ &lt;span class=&#34;string&#34;&gt;&amp;quot;  &amp;quot;&lt;/span&gt;+M+&lt;span class=&#34;string&#34;&gt;&amp;quot;-------&amp;gt;&amp;quot;&lt;/span&gt;+N);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;hannoi&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; n, &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; A, &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; B, &lt;span class=&#34;keyword&#34;&gt;char&lt;/span&gt; C)&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(n == &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            move(n, A, C);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;//移动上一关的步骤移动到B&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            hannoi(n - &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;, A, C, B);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;//把最大的盘子移动C塔&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            move(n, A, C);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;//再把B上的上一关的盘子移动到C上就可以了&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            hannoi(n - &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;, B, A, C);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;请输入盘子数：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  A-------&amp;gt;B&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;  A-------&amp;gt;C&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  B-------&amp;gt;C&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;请输入盘子数：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  A-------&amp;gt;C&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;  A-------&amp;gt;B&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  C-------&amp;gt;B&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;  A-------&amp;gt;C&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  B-------&amp;gt;A&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;  B-------&amp;gt;C&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;第&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;次移动, 盘子&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  A-------&amp;gt;C&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="算法" />
+        <category term="递归" />
+        <category term="汉诺塔" />
+        <updated>2020-08-26T12:44:19.718Z</updated>
+    </entry>
+</feed>

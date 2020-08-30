@@ -46,6 +46,13 @@
         <category>回溯</category>
         <category>八皇后</category>
         <category>Object类</category>
+        <category>Arrays</category>
+        <category>容器</category>
+        <category>Random类</category>
+        <category>Math类</category>
+        <category>字符串</category>
+        <category>String</category>
+        <category>汉诺塔</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</guid>
             <title>算法（Java实现）-求解八皇后问题（回溯算法）</title>

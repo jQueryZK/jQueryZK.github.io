@@ -43,6 +43,13 @@
     <category term="回溯" />
     <category term="八皇后" />
     <category term="Object类" />
+    <category term="Arrays" />
+    <category term="容器" />
+    <category term="Random类" />
+    <category term="Math类" />
+    <category term="字符串" />
+    <category term="String" />
+    <category term="汉诺塔" />
     <entry>
         <id>http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</id>
         <title>Java学习-继承、super关键字</title>

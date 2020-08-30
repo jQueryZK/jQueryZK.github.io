@@ -46,6 +46,13 @@
         <category>回溯</category>
         <category>八皇后</category>
         <category>Object类</category>
+        <category>Arrays</category>
+        <category>容器</category>
+        <category>Random类</category>
+        <category>Math类</category>
+        <category>字符串</category>
+        <category>String</category>
+        <category>汉诺塔</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</guid>
             <title>算法（Java实现）-详谈递归（迷宫回溯问题）</title>

@@ -43,6 +43,13 @@
     <category term="回溯" />
     <category term="八皇后" />
     <category term="Object类" />
+    <category term="Arrays" />
+    <category term="容器" />
+    <category term="Random类" />
+    <category term="Math类" />
+    <category term="字符串" />
+    <category term="String" />
+    <category term="汉诺塔" />
     <entry>
         <id>http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</id>
         <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>

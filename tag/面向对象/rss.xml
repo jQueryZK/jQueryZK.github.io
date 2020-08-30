@@ -46,6 +46,13 @@
         <category>回溯</category>
         <category>八皇后</category>
         <category>Object类</category>
+        <category>Arrays</category>
+        <category>容器</category>
+        <category>Random类</category>
+        <category>Math类</category>
+        <category>字符串</category>
+        <category>String</category>
+        <category>汉诺塔</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</guid>
             <title>Java学习-详谈最高层父类-Object类</title>

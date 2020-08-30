@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://yoursite.com</id>
+    <title>jQueryZK Blog • Posts by &#34;math类&#34; tag</title>
+    <link href="http://yoursite.com" />
+    <updated>2020-08-30T12:42:34.844Z</updated>
+    <category term="java" />
+    <category term="类" />
+    <category term="面向对象" />
+    <category term="栈" />
+    <category term="数据结构" />
+    <category term="逆波兰表达式" />
+    <category term="算法" />
+    <category term="环形链表" />
+    <category term="约瑟夫" />
+    <category term="设计模式" />
+    <category term="七大原则" />
+    <category term="计算机网络" />
+    <category term="网络体系" />
+    <category term="JavaWeb" />
+    <category term="JSP" />
+    <category term="JavaBean" />
+    <category term="python" />
+    <category term="网络爬虫" />
+    <category term="数据可视化" />
+    <category term="pyecharts" />
+    <category term="sparsearray" />
+    <category term="数组" />
+    <category term="稀疏数组" />
+    <category term="队列" />
+    <category term="循环队列" />
+    <category term="单链表" />
+    <category term="学生成绩管理系统" />
+    <category term="面试题" />
+    <category term="多态性" />
+    <category term="重写" />
+    <category term="重载" />
+    <category term="访问权限" />
+    <category term="递归" />
+    <category term="迷宫回溯" />
+    <category term="继承" />
+    <category term="super关键字" />
+    <category term="回溯" />
+    <category term="八皇后" />
+    <category term="Object类" />
+    <category term="Arrays" />
+    <category term="容器" />
+    <category term="Random类" />
+    <category term="Math类" />
+    <category term="字符串" />
+    <category term="String" />
+    <category term="汉诺塔" />
+    <entry>
+        <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</id>
+        <title>Java学习-Random类和Math类</title>
+        <link rel="alternate" href="http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/"/>
+        <content type="html">&lt;h1 id=&#34;random类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#random类&#34;&gt;#&lt;/a&gt; Random 类&lt;/h1&gt;
+&lt;h2 id=&#34;1-什么是random类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-什么是random类&#34;&gt;#&lt;/a&gt; 1 、什么是 Random 类&lt;/h2&gt;
+&lt;p&gt;此类的实例用于生成伪随机数&lt;br&gt;
+ Random 类中实现的随机算法是&lt;strong&gt;伪随机&lt;/strong&gt;，也就是&lt;strong&gt;有规则&lt;/strong&gt;的随机。在进行随机时，随机算法的起源数字称为&lt;strong&gt;种子数 (seed)&lt;/strong&gt;，在种子数的基础上进行一定的变换，从而产生需要的随机数字。相同种子数的 Random 对象，&lt;strong&gt;相同次数生成的随机数字是完全相同的&lt;/strong&gt;。也就是说，&lt;font color=red&gt;&lt;strong&gt;两个种子数相同的 Random 对象，第一次生成的随机数字完全相同，第 N 次生成的随机数字也完全相同&lt;/strong&gt;&lt;/font&gt;。这点在生成多个随机数字时需要特别注意。&lt;/p&gt;
+&lt;p&gt;（注意：&lt;strong&gt;种子数只是随机算法的起源数字，和生成的随机数字的区间无关&lt;/strong&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;2-random类的使用步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-random类的使用步骤&#34;&gt;#&lt;/a&gt; 2、Random 类的使用步骤&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;查看类：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;java.util.Random&lt;/code&gt;  ：该类需要 import 导入使后使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;查看构造方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;public Random()&lt;/code&gt;  ：创建一个新的随机数生成器。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public Random(long seed)&lt;/code&gt; ：该构造方法可以通过制定一个种子数进行创建。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Random r = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Random();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Random r1 = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Random(&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;查看成员方法&lt;/strong&gt;&lt;br&gt;
+ Random 类中的方法比较简单，每个方法的功能也很容易理解。需要说明的是，Random 类中各方法生成的随机数字都是均匀分布的，也就是说区间内部的数字生成的几率是均等的&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;public int nextInt()&lt;/code&gt;  ：返回一个伪随机数，范围在 0 （包括）和 指定值 n （不包括）之间的 int 值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;public boolean nextBoolean()&lt;/code&gt; ：该方法的作用是生成一个随机的 boolean 值，生成 true 和 false 的值几率相等，也就是都是 50% 的几率。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;public double nextDouble()&lt;/code&gt; ：该方法的作用是生成一个随机的 double 值，数值介于 [0,1.0) 之间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;public int nextInt()&lt;/code&gt; ：该方法的作用是生成一个随机的 int 值，该值介于 int 的区间，也就是 - 2^31 到 2^31-1 之间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;public int nextInt(int n)&lt;/code&gt; ：生成指定区间的 int 值，该方法的作用是生成一个随机的 int 值，该值介于 [0,n) 的区间，也就是&lt;strong&gt; 0 到 n 之间的随机 int 值，包含 0 而不包含 n&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;public void setSeed(long seed)&lt;/code&gt; ：该方法的作用是重新设置 Random 对象中的种子数。设置完种子数以后的 Random 对象和相同种子数使用 new 关键字创建出的 Random 对象相同。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-具体应用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-具体应用&#34;&gt;#&lt;/a&gt; 3、具体应用&lt;/h2&gt;
+&lt;p&gt;使用 Random 类，完成生成 3 个 10 以内的随机整数的操作&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Random; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;test&lt;/span&gt; &lt;/span&gt;&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &lt;/span&gt;&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;comment&#34;&gt;//2. 创建键盘录入数据的对象 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		Random r = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Random(); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;; i &amp;lt; &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;; i++)&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;comment&#34;&gt;//3. 随机生成一个数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; number = r.nextInt(&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;comment&#34;&gt;//4. 输出数据 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;number:&amp;quot;&lt;/span&gt;+ number); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125; 		&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;获取 1-n 之间的随机数，&lt;strong&gt;包含 n&lt;/strong&gt;，代码如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//1. 导包 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Random; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;test&lt;/span&gt; &lt;/span&gt;&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	 &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; n = &lt;span class=&#34;number&#34;&gt;50&lt;/span&gt;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 &lt;span class=&#34;comment&#34;&gt;// 创建对象 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 Random r = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Random(); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 &lt;span class=&#34;comment&#34;&gt;// 获取随机数 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; number = r.nextInt(n) + &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 &lt;span class=&#34;comment&#34;&gt;// 输出随机数 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;number:&amp;quot;&lt;/span&gt; + number); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		 &amp;#125; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;猜数字游戏：&lt;/strong&gt; 游戏开始时，会随机生成一个 1-100 之间的整数 number 。玩家猜测一个数字 guessNumber ，会与 number 作比 较，系统提示大了或者小了，直到玩家猜中，游戏结束。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Random;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;test&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&lt;/span&gt;&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;comment&#34;&gt;// 系统产生一个随机数1‐100之间的。 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		Random r = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Random(); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; number = r.nextInt(&lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;) + &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(&lt;span class=&#34;keyword&#34;&gt;true&lt;/span&gt;)&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;comment&#34;&gt;// 键盘录入我们要猜的数据 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			Scanner sc = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Scanner(System.in); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;请输入你要猜的数字(1‐100)：&amp;quot;&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; guessNumber = sc.nextInt(); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;comment&#34;&gt;// 比较这两个数据(用if语句) &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (guessNumber &amp;gt; number) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;你猜的数据&amp;quot;&lt;/span&gt; + guessNumber + &lt;span class=&#34;string&#34;&gt;&amp;quot;大了&amp;quot;&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (guessNumber &amp;lt; number) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#123; System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;你猜的数据&amp;quot;&lt;/span&gt; + guessNumber + &lt;span class=&#34;string&#34;&gt;&amp;quot;小了&amp;quot;&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;恭喜你,猜中了&amp;quot;&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				&lt;span class=&#34;keyword&#34;&gt;break&lt;/span&gt;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;math类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#math类&#34;&gt;#&lt;/a&gt; Math 类&lt;/h1&gt;
+&lt;h2 id=&#34;1-概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-概述&#34;&gt;#&lt;/a&gt; 1、概述&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;java.lang.Math&lt;/code&gt;  类包含用于&lt;strong&gt;执行基本数学运算&lt;/strong&gt;的方法，如初等指数、对数、平方根和三角函数。类似这样的工具 类，其&lt;strong&gt;所有方法均为静态方法&lt;/strong&gt;，并且&lt;strong&gt;不会创建对象&lt;/strong&gt;，调用起来非常简单。&lt;/p&gt;
+&lt;h2 id=&#34;2-常用运算方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-常用运算方法&#34;&gt;#&lt;/a&gt; 2、常用运算方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Math.sqrt()&lt;/code&gt; ：计算平方根&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.cbrt()&lt;/code&gt; ：计算立方根&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.hypot(x,y)&lt;/code&gt; ：计算 (x 的平方 + y 的平方)&lt;strong&gt; 的平方根&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.pow(a,b)&lt;/code&gt; ：计算 a 的 b 次方&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.exp(x)&lt;/code&gt; ：计算 e^x 的值&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.max()&lt;/code&gt; ：计算最大值 Math.min ();// 计算最小值&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.abs()&lt;/code&gt; ：返回 double 值的绝对值。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.ceil()&lt;/code&gt; ：天花板的意思，返回大于等于参数的最小的整数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.floor()&lt;/code&gt; ：地板的意思，返回小于等于参数最大的整数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.random()&lt;/code&gt; ： 取得一个大于或者等于 0.0 小于不等于 1.0 的随机数 [0,1)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.rint()&lt;/code&gt; ： 四舍五入 返回 double 值&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.round()&lt;/code&gt; ： 四舍五入 float 时返回 int 值，double 时返回 long 值&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.nextUp(a)&lt;/code&gt; ： 返回比 a 大一点点的浮点数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.nextDown(a)&lt;/code&gt; ： 返回比 a 小一点点的浮点数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Math.nextAfter(a,b)&lt;/code&gt; ：返回 (a,b) 或 (b,a) 间与 a 相邻的浮点数 b 可以比 a 小&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="java" />
+        <category term="类" />
+        <category term="Random类" />
+        <category term="Math类" />
+        <updated>2020-08-30T12:42:34.844Z</updated>
+    </entry>
+</feed>
