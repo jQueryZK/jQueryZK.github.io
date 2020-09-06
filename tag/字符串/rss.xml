@@ -53,6 +53,13 @@
         <category>字符串</category>
         <category>String</category>
         <category>汉诺塔</category>
+        <category>Collection</category>
+        <category>Iterator</category>
+        <category>集合</category>
+        <category>迭代器</category>
+        <category>泛型</category>
+        <category>时间复杂度</category>
+        <category>空间复杂度</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
             <title>Java学习-详谈String类及其常用方法</title>

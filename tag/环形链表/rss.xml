@@ -53,6 +53,13 @@
         <category>字符串</category>
         <category>String</category>
         <category>汉诺塔</category>
+        <category>Collection</category>
+        <category>Iterator</category>
+        <category>集合</category>
+        <category>迭代器</category>
+        <category>泛型</category>
+        <category>时间复杂度</category>
+        <category>空间复杂度</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</guid>
             <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>

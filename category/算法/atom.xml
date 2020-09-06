@@ -3,7 +3,7 @@
     <id>http://yoursite.com</id>
     <title>jQueryZK Blog • Posts by &#34;算法&#34; category</title>
     <link href="http://yoursite.com" />
-    <updated>2020-08-26T12:44:19.718Z</updated>
+    <updated>2020-09-06T06:07:12.485Z</updated>
     <category term="java" />
     <category term="类" />
     <category term="面向对象" />
@@ -50,6 +50,116 @@
     <category term="字符串" />
     <category term="String" />
     <category term="汉诺塔" />
+    <category term="Collection" />
+    <category term="Iterator" />
+    <category term="集合" />
+    <category term="迭代器" />
+    <category term="泛型" />
+    <category term="时间复杂度" />
+    <category term="空间复杂度" />
+    <entry>
+        <id>http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
+        <title>算法（Java实现）-算法的时间复杂度和空间复杂度</title>
+        <link rel="alternate" href="http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+        <content type="html">&lt;h1 id=&#34;1-时间复杂度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-时间复杂度&#34;&gt;#&lt;/a&gt; 1、时间复杂度&lt;/h1&gt;
+&lt;h2 id=&#34;11度量一个程序算法执行时间的两种方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11度量一个程序算法执行时间的两种方法&#34;&gt;#&lt;/a&gt; 1.1 度量一个程序（算法）执行时间的两种方法&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;事后统计的方法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这种方法可行，但是有两个问题：&lt;br&gt;
+一是要想对设计的算法的运行性能进行评测，需要实际运行该程序；&lt;br&gt;
+二是所得时间的统计量依赖于计算机的硬件、软件等环境因素，&lt;strong&gt;这种方式，要在同一台计算机的相同状态下运行，才能比较那个算法速度更快&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;事前估计的方法&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过分析某个&lt;strong&gt;算法的时间复杂度&lt;/strong&gt;来判断哪个算法更优。因事后统计方法更多的依赖于计算机的硬件、软件等环境因素，有时容易掩盖算法本身的优劣。&lt;strong&gt;因此人们常常采用事前分析估算的方法。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在编写程序前，依据统计方法对算法进行估算。一个用高级语言编写的程序在计算机上运行时所消耗的时间取决于下列因素：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;算法采用的策略、方法；&lt;/li&gt;
+&lt;li&gt;编译产生的代码质量；&lt;/li&gt;
+&lt;li&gt;问题的输入规模；&lt;/li&gt;
+&lt;li&gt;机器执行指令的速度。&lt;br&gt;
+一个算法是由&lt;strong&gt;控制结构&lt;/strong&gt;（顺序、分支和循环 3 种）和&lt;strong&gt;原操作&lt;/strong&gt;（指固有数据类型的操作）构成的，则&lt;strong&gt;算法时间取决于两者的综合效果&lt;/strong&gt;。为了便于比较同一个问题的不同算法，通常的做法是，从算法中选取一种对于所研究的问题（或算法类型）来说是基本操作的原操作，以该基本操作的&lt;strong&gt;重复执行的次数作为算法的时间量度&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;12时间频度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#12时间频度&#34;&gt;#&lt;/a&gt; 1.2 时间频度&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;时间频度&lt;/strong&gt;：一个算法花费的时间与算法中语句的执行次数成正比例，&lt;strong&gt;哪个算法中语句执行次数多，它花费时间就多&lt;/strong&gt;。&lt;font color=red&gt;一个算法中的语句执行次数&lt;/font&gt;称为语句频度或&lt;strong&gt;时间频度&lt;/strong&gt;。记为&lt;strong&gt; T (n)&lt;/strong&gt;。&lt;br&gt;
+举例：&lt;br&gt;
+&lt;strong&gt;比如计算 1-100 所有数字之和，我们设计两种算法&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; total=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; end=&lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; i=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;i&amp;lt;=end;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	total+=i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;T (n) = n+1；也就是要执行 101 次第 101 次也要判断一下&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;total=（&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;+end）*end/&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;T (n)=1；也就是只需要执行一次&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;忽略常数项&lt;/strong&gt;：&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903203501203.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/2020090320350961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+观察图像分析：&lt;br&gt;
+2n+20 和 2n 随着 n 变大，执行曲线无限接近，20 可以忽略&lt;br&gt;
+ 3n+10 和 3n 随着 n 变大，执行曲线无限接近，10 可以忽略&lt;br&gt;
+&lt;strong&gt;忽略低次项&lt;/strong&gt;：&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903204245124.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903204310327.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+观察图像分析：&lt;br&gt;
+2n^2+3n+10 和 2n^2 随着 n 变大，执行曲线无限接近，可以忽略 3n+10&lt;br&gt;
+n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+20&lt;br&gt;
+&lt;strong&gt; 忽略系数&lt;/strong&gt;：&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903204444910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903204453554.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+观察图像分析：&lt;br&gt;
+随着 n 值变大，5n^2+7n 和 3n^2 + 2n ，执行曲线重合，说明  这种情况下，5 和 3 可以忽略。&lt;br&gt;
+而 n^3+5n 和 6n^3+4n  ，执行曲线分离，说明多少次方才是关键&lt;/p&gt;
+&lt;h2 id=&#34;13时间复杂度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#13时间复杂度&#34;&gt;#&lt;/a&gt; 1.3 时间复杂度&lt;/h2&gt;
+&lt;p&gt;一般情况下，算法中的基本操作语句的重复执行次数是问题规模 n 的某个函数，用 T (n) 表示，若有某个辅助函数 f (n)，使得当 n 趋近于无穷大时，T (n) /f (n) 的极限值为不等于零的常数，则称 f (n) 是 T (n) 的同数量级函数。&lt;strong&gt;记作 T (n)=Ｏ( f (n) )，称Ｏ( f (n) )  为算法的渐进时间复杂度，简称时间复杂度&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;T (n) 不同，但时间复杂度可能相同&lt;/strong&gt;。&lt;br&gt;
+如：T (n)=n²+7n+6 与 T (n)=3n²+2n+2 它们的 T (n) 不同，但时间复杂度相同，都为 O (n²)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;计算时间复杂度的方法&lt;/strong&gt;：&lt;br&gt;
+比如：计算 T (n)=3n²+2n+2 的时间复杂度&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用常数 1 代替运行时间中的所有加法常数：  T (n)=3n²+2n+2  =&amp;gt; T (n)=3n²+2n+1&lt;/li&gt;
+&lt;li&gt;修改后的运行次数函数中，只保留最高阶项  T (n)=3n²+2n+1 =&amp;gt; T (n) = 3n²&lt;/li&gt;
+&lt;li&gt;去除最高阶项的系数 T (n) = 3n² =&amp;gt; T (n) = n² =&amp;gt; &lt;strong&gt;O(n²)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;14常见的时间复杂度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#14常见的时间复杂度&#34;&gt;#&lt;/a&gt; 1.4 常见的时间复杂度&lt;/h2&gt;
+&lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903211501685.png#&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906102546620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+常见的算法时间复杂度由小到大依次为：&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903211622396.png#&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+随着问题规模 n 的不断增大，上述时间复杂度不断增大，算法的执行效率越低。从图中可见，&lt;strong&gt;我们应该尽可能避免使用指数阶的算法&lt;/strong&gt;&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200903212308811.png#&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+无论代码执行了多少行，只要是没有循环等复杂结构，那这个代码的时间复杂度就都是 O (1)&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; j = &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;++i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;j++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; m = i + j;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;上述代码在执行的时候，它消耗的时候并不随着某个变量的增长而增长，那么无论这类代码有多长，即使有几万几十万行，都可以用 O (1) 来表示它的时间复杂度。&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906100358901.png#pic_cent&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(i&amp;lt;n)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	i=i*&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;说明：在 while 循环里面，每次都将 i 乘以 2，乘完之后，i 距离 n 就越来越近了。假设循环 x 次之后，i 就大于 2 了，此时这个循环就退出了，也就是说 2 的 x 次方等于 n，那么 x = log2n 也就是说当循环 log2n 次以后，这个代码就结束了。因此这个代码的时间复杂度为：O (log2^n)  。 O (log2^n) 的这个 2 时间上是根据代码变化的，i = i * 3 ，则是 O (log3^n) .&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906100705448.png#&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(i=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;i&amp;lt;=n;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	j = i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	j++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;说明：这段代码，for 循环里面的代码会执行 n 遍，因此它消耗的时间是随着 n 的变化而变化的，因此这类代码都可以用 O (n) 来表示它的时间复杂度&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906102006267.png#pic&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(m=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;m&amp;lt;n;m++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(i&amp;lt;n)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		i=i*&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;说明：线性&lt;strong&gt;对数阶 O (nlogN)&lt;/strong&gt; 其实非常容易理解，将时间复杂度为 O (logn) 的代码循环 N 遍的话，那么它的时间复杂度就是 n * O (logN)，也就是了 O (nlogN)。比如上面的代码的时间复杂度就是 O (nlog2^ n) , 如果 i=i * 2 改为 i=i * 3 的话，时间复杂度就是 O (nlog3^ n)&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906103400793.png#pic_cent&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(x=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;; i&amp;lt;=n; x++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(i=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;; i&amp;lt;=n; i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		j = i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		j++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;说明：平方阶 O (n²) 就更容易理解了，如果把 O (n) 的代码再嵌套循环一遍，它的时间复杂度就是 O (n²)，这段代码其实就是嵌套了 2 层 n 循环，它的时间复杂度就是 O (n&lt;em&gt;n)，即  O (n²) 如果将其中一层循环的 n 改成 m，那它的时间复杂度就变成了 O (m&lt;/em&gt;n)&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/2020090613433984.png#pic_ce&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ O (n³) 相当于三层 n 循环&lt;br&gt;
+&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906134351820.png#pic_cent&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+ O (n^k) 相当于 k 层循环&lt;/p&gt;
+&lt;h2 id=&#34;15平均时间复杂度和最坏时间复杂度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#15平均时间复杂度和最坏时间复杂度&#34;&gt;#&lt;/a&gt; 1.5 平均时间复杂度和最坏时间复杂度&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;平均时间复杂度是指所有可能的输入实例均以等概率出现的情况下，该算法的运行时间。&lt;/li&gt;
+&lt;li&gt;最坏情况下的时间复杂度称最坏时间复杂度。一般讨论的时间复杂度均是最坏情况下的时间复杂度。这样做的原因是：最坏情况下的时间复杂度是算法在任何输入实例上运行时间的界限，这就保证了算法的运行时间不会比最坏情况更长。&lt;/li&gt;
+&lt;li&gt;平均时间复杂度和最坏时间复杂度是否一致，和算法有关。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;比如下图为八大排序算法的时间复杂度：&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200906134845435.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2-算法的空间复杂度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-算法的空间复杂度&#34;&gt;#&lt;/a&gt; 2、算法的空间复杂度&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;类似于时间复杂度的讨论，一个算法的空间复杂度 (Space Complexity) 定义为该算法所耗费的存储空间，它也是问题规模 n 的函数。&lt;/li&gt;
+&lt;li&gt;空间复杂度 (Space Complexity) 是对一个算法在运行过程中临时占用存储空间大小的量度。有的算法需要占用的临时工作单元数与解决问题的规模 n 有关，它随着 n 的增大而增大，当 n 较大时，将占用较多的存储单元，例如快速排序和归并排序算法就属于这种情况&lt;/li&gt;
+&lt;li&gt;在做算法分析时，主要讨论的是时间复杂度。从用户使用体验上看，更看重的程序执行的速度。一些缓存产品 (redis,memcache) 和算法 (基数排序) 本质就是用空间换时间.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="算法" />
+        <category term="时间复杂度" />
+        <category term="空间复杂度" />
+        <updated>2020-09-06T06:07:12.485Z</updated>
+    </entry>
     <entry>
         <id>http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</id>
         <title>算法（java）-汉诺塔问题（递归回溯）</title>

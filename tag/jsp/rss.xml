@@ -53,6 +53,13 @@
         <category>字符串</category>
         <category>String</category>
         <category>汉诺塔</category>
+        <category>Collection</category>
+        <category>Iterator</category>
+        <category>集合</category>
+        <category>迭代器</category>
+        <category>泛型</category>
+        <category>时间复杂度</category>
+        <category>空间复杂度</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/jsp%E5%92%8CJavaBean/</guid>
             <title>JavaWeb学习-JSP和JavaBean</title>

@@ -50,6 +50,13 @@
     <category term="字符串" />
     <category term="String" />
     <category term="汉诺塔" />
+    <category term="Collection" />
+    <category term="Iterator" />
+    <category term="集合" />
+    <category term="迭代器" />
+    <category term="泛型" />
+    <category term="时间复杂度" />
+    <category term="空间复杂度" />
     <entry>
         <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</id>
         <title>Java学习-详谈数组Array和数组工具类Arrays</title>
