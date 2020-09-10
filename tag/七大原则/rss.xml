@@ -60,6 +60,26 @@
         <category>泛型</category>
         <category>时间复杂度</category>
         <category>空间复杂度</category>
+        <category>Collections</category>
+        <category>Comparable</category>
+        <category>Comparator</category>
+        <category>哈希表</category>
+        <category>开放地址法</category>
+        <category>链地址法</category>
+        <category>哈希函数</category>
+        <category>线性查找</category>
+        <category>二分查找</category>
+        <category>插值查找</category>
+        <category>斐波那契查找</category>
+        <category>Set集合</category>
+        <category>HashSet</category>
+        <category>TreeSet</category>
+        <category>LinkedHashSet</category>
+        <category>List</category>
+        <category>ArrayList</category>
+        <category>LinkedList</category>
+        <category>Vector</category>
+        <category>Stack</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/%E4%B8%83%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/</guid>
             <title>Java设计模式-详谈七大设计原则</title>

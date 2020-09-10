@@ -60,6 +60,26 @@
         <category>泛型</category>
         <category>时间复杂度</category>
         <category>空间复杂度</category>
+        <category>Collections</category>
+        <category>Comparable</category>
+        <category>Comparator</category>
+        <category>哈希表</category>
+        <category>开放地址法</category>
+        <category>链地址法</category>
+        <category>哈希函数</category>
+        <category>线性查找</category>
+        <category>二分查找</category>
+        <category>插值查找</category>
+        <category>斐波那契查找</category>
+        <category>Set集合</category>
+        <category>HashSet</category>
+        <category>TreeSet</category>
+        <category>LinkedHashSet</category>
+        <category>List</category>
+        <category>ArrayList</category>
+        <category>LinkedList</category>
+        <category>Vector</category>
+        <category>Stack</category>
         <item>
             <guid isPermalink="true">http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
             <title>Java学习-继承、super关键字</title>

@@ -57,6 +57,26 @@
     <category term="泛型" />
     <category term="时间复杂度" />
     <category term="空间复杂度" />
+    <category term="Collections" />
+    <category term="Comparable" />
+    <category term="Comparator" />
+    <category term="哈希表" />
+    <category term="开放地址法" />
+    <category term="链地址法" />
+    <category term="哈希函数" />
+    <category term="线性查找" />
+    <category term="二分查找" />
+    <category term="插值查找" />
+    <category term="斐波那契查找" />
+    <category term="Set集合" />
+    <category term="HashSet" />
+    <category term="TreeSet" />
+    <category term="LinkedHashSet" />
+    <category term="List" />
+    <category term="ArrayList" />
+    <category term="LinkedList" />
+    <category term="Vector" />
+    <category term="Stack" />
     <entry>
         <id>http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</id>
         <title>Java学习-详谈泛型</title>

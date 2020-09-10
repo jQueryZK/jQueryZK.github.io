@@ -57,6 +57,26 @@
     <category term="泛型" />
     <category term="时间复杂度" />
     <category term="空间复杂度" />
+    <category term="Collections" />
+    <category term="Comparable" />
+    <category term="Comparator" />
+    <category term="哈希表" />
+    <category term="开放地址法" />
+    <category term="链地址法" />
+    <category term="哈希函数" />
+    <category term="线性查找" />
+    <category term="二分查找" />
+    <category term="插值查找" />
+    <category term="斐波那契查找" />
+    <category term="Set集合" />
+    <category term="HashSet" />
+    <category term="TreeSet" />
+    <category term="LinkedHashSet" />
+    <category term="List" />
+    <category term="ArrayList" />
+    <category term="LinkedList" />
+    <category term="Vector" />
+    <category term="Stack" />
     <entry>
         <id>http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
         <title>算法（Java实现）-算法的时间复杂度和空间复杂度</title>
