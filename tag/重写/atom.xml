@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;重写&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-25T13:03:42.978Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/</id>
         <title>Java学习-方法的重写（覆盖）和重载</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/"/>
         <content type="html">&lt;h1 id=&#34;1-方法重写overide&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-方法重写overide&#34;&gt;#&lt;/a&gt; 1、方法重写（Overide）&lt;/h1&gt;
 &lt;h2 id=&#34;11什么是方法重写&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11什么是方法重写&#34;&gt;#&lt;/a&gt; 1.1 什么是方法重写？&lt;/h2&gt;
 &lt;p&gt;在 Java 程序中，类的继承关系可以产生一个子类，子类继承父类，它具备了父类所有的特征，继承了父类所有的方法和变量。          子类可以定义新的特征，&lt;strong&gt;当子类需要修改父类的一些方法进行扩展，增大功能，程序设计者常常把这样的一种操作方法称为重写，也叫称为覆写或覆盖。&lt;/strong&gt; 在 Java 中的继承中，&lt;strong&gt;子类既可以隐藏和访问父类的方法，也可以覆盖继承父类的方法&lt;/strong&gt;。在 Java 中覆盖继承父类的方法就是通过方法的重写来实现的。&lt;/p&gt;

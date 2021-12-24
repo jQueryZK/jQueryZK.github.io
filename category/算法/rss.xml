@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>jQueryZK Blog • Posts by &#34;算法&#34; category</title>
-        <link>http://yoursite.com</link>
+        <link>https://jqueryzk.gitee.io/zkblog</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
         <pubDate>Thu, 10 Sep 2020 16:28:30 +0800</pubDate>
@@ -87,9 +87,9 @@
         <category>队列</category>
         <category>循环队列</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/</guid>
             <title>算法（Java实现）-常用的查找算法（线性查找、二分查找、插值查找、斐波那契查找）</title>
-            <link>http://yoursite.com/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/</link>
             <category>线性查找</category>
             <category>二分查找</category>
             <category>插值查找</category>
@@ -190,9 +190,9 @@ int mid = 0 + (99 - 0) * (100 - 1) / (100 - 1) = 0 + 99 * 99 / 99 = 0 + 99 = 99&
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</guid>
             <title>算法（Java实现）-算法的时间复杂度和空间复杂度</title>
-            <link>http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</link>
             <category>算法</category>
             <category>时间复杂度</category>
             <category>空间复杂度</category>
@@ -293,9 +293,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</guid>
             <title>算法（java）-汉诺塔问题（递归回溯）</title>
-            <link>http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</link>
             <category>算法</category>
             <category>递归</category>
             <category>汉诺塔</category>
@@ -347,9 +347,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</guid>
             <title>算法（Java实现）-求解八皇后问题（回溯算法）</title>
-            <link>http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</link>
             <category>回溯</category>
             <category>算法</category>
             <category>八皇后</category>
@@ -380,9 +380,9 @@ a [0] = 0  ：表示第 1 个皇后放在第 1 行的第 1 列&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</guid>
             <title>算法（Java实现）-详谈递归（迷宫回溯问题）</title>
-            <link>http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</link>
             <category>算法</category>
             <category>递归</category>
             <category>迷宫回溯</category>
@@ -437,9 +437,9 @@ a [0] = 0  ：表示第 1 个皇后放在第 1 行的第 1 列&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</guid>
             <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>
-            <link>http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</link>
             <category>算法</category>
             <category>环形链表</category>
             <category>约瑟夫</category>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-09-27T06:29:34.088Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</id>
         <title>Java学习-详谈Java异常和异常处理</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/"/>
         <content type="html">&lt;h1 id=&#34;1-异常&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-异常&#34;&gt;#&lt;/a&gt; 1、异常&lt;/h1&gt;
 &lt;h2 id=&#34;11异常概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11异常概念&#34;&gt;#&lt;/a&gt; 1.1 异常概念&lt;/h2&gt;
 &lt;p&gt;异常，就是不正常的意思。在生活中：医生说，你的身体某个部位有异常，该部位和正常相比有点不同，该部位的功能将 受影响。在程序中的意思就是：&lt;/p&gt;
@@ -251,9 +251,9 @@ try…catch…finally: 自身需要处理异常，最终还得关闭资源。&lt
         <updated>2020-09-27T06:29:34.088Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</id>
         <title>Java学习-详谈Map集合（HashMap、LinkedHashMap、TreeMap）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-map集合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-map集合&#34;&gt;#&lt;/a&gt; 1、Map 集合&lt;/h1&gt;
 &lt;h2 id=&#34;11map集合介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11map集合介绍&#34;&gt;#&lt;/a&gt; 1.1Map 集合介绍&lt;/h2&gt;
 &lt;p&gt;现实生活中，我们常会看到这样的一种集合：IP 地址与主机名，身份证号与个人，系统用户名与系统用户对象等， 这种&lt;strong&gt;一一对应的关系&lt;/strong&gt;，就叫做&lt;strong&gt;映射&lt;/strong&gt;。Java 提供了专门的集合类用来存放这种对象关系的对象，即  &lt;code&gt;java.util.Map&lt;/code&gt;  接 口。&lt;/p&gt;
@@ -410,9 +410,9 @@ try…catch…finally: 自身需要处理异常，最终还得关闭资源。&lt
         <updated>2020-09-12T07:32:59.727Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E7%BB%93%E6%9E%84/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E7%BB%93%E6%9E%84/</id>
         <title></title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E7%BB%93%E6%9E%84/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E7%BB%93%E6%9E%84/"/>
         <content type="html">&lt;h1 id=&#34;1-树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-树&#34;&gt;#&lt;/a&gt; 1、树&lt;/h1&gt;
 &lt;h2 id=&#34;11树的基本介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11树的基本介绍&#34;&gt;#&lt;/a&gt; 1.1 树的基本介绍&lt;/h2&gt;
 &lt;p&gt;树（tree）是一种抽象数据类型（ADT），用来模拟具有树状结构性质的数据集合。它是由 n（n&amp;gt;0）个有限节点通过连接它们的边组成一个具有层次关系的集合。把它叫做 “树” 是因为它看起来像一棵倒挂的树，也就是说它是根朝上，而叶朝下的。&lt;br&gt;
@@ -524,9 +524,9 @@ try…catch…finally: 自身需要处理异常，最终还得关闭资源。&lt
         <updated>2020-09-11T13:07:39.960Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</id>
         <title>Java学习-Collections工具类和Java常见的几种比较器</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;1-collections集合工具类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-collections集合工具类&#34;&gt;#&lt;/a&gt; 1、Collections 集合工具类&lt;/h1&gt;
 &lt;h2 id=&#34;11基本介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11基本介绍&#34;&gt;#&lt;/a&gt; 1.1 基本介绍&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;java.utils.Collections&lt;/code&gt;  是 Java 提供的一个操作  &lt;code&gt;Set&lt;/code&gt; 、 &lt;code&gt;List&lt;/code&gt;  和  &lt;code&gt;Map&lt;/code&gt;  等集合的工具类。Collections 类提供了许多&lt;strong&gt;操作集合的静态方法&lt;/strong&gt;，借助这些静态方法可以实现集合元素的&lt;strong&gt;排序、查找替换和复制&lt;/strong&gt; 等操作。&lt;/p&gt;
@@ -584,9 +584,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
         <updated>2020-09-10T08:28:30.819Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</id>
         <title>Java学习-详谈Set集合（HashSet、TreeSet、LinkedHashSet）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-set接口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-set接口&#34;&gt;#&lt;/a&gt; 1、Set 接口&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;java.util.Set&lt;/code&gt;  接口和  &lt;code&gt;java.util.List&lt;/code&gt;  接口一样，同样&lt;strong&gt;继承自 Collection 接口&lt;/strong&gt;，它与 Collection 接口中的方法基本一致，并没有对 Collection 接口进行功能上的扩充，只是比 Collection 接口更加严格了。与 List 接口不同的是， Set 接口中&lt;font color=red&gt;&lt;strong&gt;元素无序&lt;/strong&gt;&lt;/font&gt;，并且都会以某种规则保证存入的&lt;font color=red&gt;&lt;strong&gt;元素不出现重复&lt;/strong&gt;&lt;/font&gt;。&lt;br&gt;
 &lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200909152554478.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
@@ -666,9 +666,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
         <updated>2020-09-10T08:28:30.815Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</id>
         <title>数据结构（Java实现）-详谈哈希表(Hash Table)</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/"/>
         <content type="html">&lt;h1 id=&#34;1-哈希表介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-哈希表介绍&#34;&gt;#&lt;/a&gt; 1、哈希表介绍&lt;/h1&gt;
 &lt;p&gt;散列表（Hash table，也叫哈希表），是根据&lt;strong&gt;关键码值 (Key value)&lt;strong&gt; 而&lt;/strong&gt;直接进行访问&lt;/strong&gt;的&lt;strong&gt;数据结构&lt;/strong&gt;。也就是说，它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做散列函数，存放记录的数组叫做散列表。&lt;/p&gt;
 &lt;p&gt;（&lt;font color=red&gt;哈希表的底层是数组&lt;/font&gt;）&lt;br&gt;
@@ -768,9 +768,9 @@ H（key）=key  MOD  p，p&amp;lt;=m   （最简单，最常用）p 的选取很
         <updated>2020-09-10T08:28:30.810Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/</id>
         <title>算法（Java实现）-常用的查找算法（线性查找、二分查找、插值查找、斐波那契查找）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%EF%BC%88%E7%BA%BF%E6%80%A7%E6%9F%A5%E6%89%BE%E3%80%81%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%81%E6%8F%92%E5%80%BC%E6%9F%A5%E6%89%BE%E3%80%81%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9F%A5%E6%89%BE%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-线性查找算法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-线性查找算法&#34;&gt;#&lt;/a&gt; 1、线性查找算法&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;：线性查找算法就是在待查数据中进行顺序性轮询查找，当存在待查的数据时返回当前数据索引位置，如果不存在则返回不存在表示 - 1&lt;br&gt;
 &lt;strong&gt; 平均查找长度&lt;/strong&gt;：1/2 (n+i)&lt;br&gt;
@@ -871,9 +871,9 @@ int mid = 0 + (99 - 0) * (100 - 1) / (100 - 1) = 0 + 99 * 99 / 99 = 0 + 99 = 99&
         <updated>2020-09-10T08:28:30.706Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
         <title>算法（Java实现）-算法的时间复杂度和空间复杂度</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/06/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
         <content type="html">&lt;h1 id=&#34;1-时间复杂度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-时间复杂度&#34;&gt;#&lt;/a&gt; 1、时间复杂度&lt;/h1&gt;
 &lt;h2 id=&#34;11度量一个程序算法执行时间的两种方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11度量一个程序算法执行时间的两种方法&#34;&gt;#&lt;/a&gt; 1.1 度量一个程序（算法）执行时间的两种方法&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;事后统计的方法&lt;/strong&gt;&lt;/p&gt;
@@ -974,9 +974,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-09-06T06:07:12.485Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</id>
         <title>Java学习-详谈泛型</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/"/>
         <content type="html">&lt;h1 id=&#34;泛型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#泛型&#34;&gt;#&lt;/a&gt; 泛型&lt;/h1&gt;
 &lt;h2 id=&#34;11泛型概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11泛型概述&#34;&gt;#&lt;/a&gt; 1.1 泛型概述&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;泛型&lt;/strong&gt;：即 &lt;strong&gt;参数化类型&lt;/strong&gt; 。一提到参数，最熟悉的就是定义方法时有形参，然后调用此方法时传递实参。那么参数化类型怎么理解呢？&lt;br&gt;
@@ -1073,9 +1073,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-09-03T05:14:58.270Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/</id>
         <title>Java学习-Collection集合和Iterator迭代器</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;1-collection集合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-collection集合&#34;&gt;#&lt;/a&gt; 1、Collection 集合&lt;/h1&gt;
 &lt;h2 id=&#34;11集合概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11集合概述&#34;&gt;#&lt;/a&gt; 1.1 集合概述&lt;/h2&gt;
 &lt;ul&gt;
@@ -1149,9 +1149,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-09-03T05:14:58.267Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</id>
         <title>Java学习-详谈List集合（ArrayList、LinkedList、Vector和Stack）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1list接口介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1list接口介绍&#34;&gt;#&lt;/a&gt; 1.List 接口介绍&lt;/h1&gt;
 &lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/2020090219441391.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
  &lt;code&gt;java.util.List&lt;/code&gt;  接口继承自 Collection 接口，是单列集合的一个重要分支，习惯性地会将实现了 List 接口的对象称为&lt;strong&gt; List 集合&lt;/strong&gt;。&lt;br&gt;
@@ -1373,9 +1373,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-09-03T05:14:52.685Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</id>
         <title>Java学习-Random类和Math类</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/"/>
         <content type="html">&lt;h1 id=&#34;random类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#random类&#34;&gt;#&lt;/a&gt; Random 类&lt;/h1&gt;
 &lt;h2 id=&#34;1-什么是random类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-什么是random类&#34;&gt;#&lt;/a&gt; 1 、什么是 Random 类&lt;/h2&gt;
 &lt;p&gt;此类的实例用于生成伪随机数&lt;br&gt;
@@ -1450,9 +1450,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-30T12:42:34.844Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</id>
         <title>Java学习-详谈String类及其常用方法</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
         <content type="html">&lt;h1 id=&#34;1-string类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-string类&#34;&gt;#&lt;/a&gt; 1、String 类&lt;/h1&gt;
 &lt;h2 id=&#34;11string类的概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11string类的概述&#34;&gt;#&lt;/a&gt; 1.1String 类的概述&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;java.lang.String&lt;/code&gt;  类代表&lt;strong&gt;字符串&lt;/strong&gt;。Java 程序中所有的字符串文字（例如 “abc” ）都可以被看作是实现此类的实例。类 String 中包括用于检查各个字符串的方法，比如用于&lt;strong&gt;比较字符串&lt;/strong&gt;，&lt;strong&gt;搜索字符串&lt;/strong&gt;，&lt;strong&gt;提取子字符串&lt;/strong&gt;以及&lt;strong&gt;创建具有翻 译为大写或小写的所有字符的字符串的副本&lt;/strong&gt;&lt;br&gt;
@@ -1522,9 +1522,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-30T11:47:25.663Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</id>
         <title>Java学习-详谈数组Array和数组工具类Arrays</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/"/>
         <content type="html">&lt;h1 id=&#34;1-数组的定义和访问&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-数组的定义和访问&#34;&gt;#&lt;/a&gt; 1、数组的定义和访问&lt;/h1&gt;
 &lt;h2 id=&#34;11容器概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11容器概述&#34;&gt;#&lt;/a&gt; 1.1 容器概述&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;案例分析：&lt;/strong&gt; 现在需要统计某公司员工的工资情况，例如计算平均工资、找到最高工资等。假设该公司有 50 名员工，用前面所学 的知识，程序首先需要声明 50 个变量来分别记住每位员工的工资，然后在进行操作，这样做会显得很麻烦，而且错 误率也会很高。因此我们可以使用容器进行操作。将所有的数据全部存储到一个容器中，统一操作。&lt;/p&gt;
@@ -1659,9 +1659,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-30T09:27:06.176Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</id>
         <title>算法（java）-汉诺塔问题（递归回溯）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-汉诺塔问题介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-汉诺塔问题介绍&#34;&gt;#&lt;/a&gt; 1、汉诺塔问题介绍&lt;/h1&gt;
 &lt;p&gt;汉诺塔 (又称河内塔) 问题是源于印度一个古老传说的益智玩具。大梵天创造世界的时候做了三根金刚石柱子，在一根柱子上从下往上按照大小顺序摞着 64 片黄金圆盘。大梵天命令婆罗门把圆盘从下面开始按大小顺序重新摆放在另一根柱子上。并且规定，在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。&lt;br&gt;
 简单分析要求：&lt;/p&gt;
@@ -1713,9 +1713,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-26T12:44:19.718Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
         <title>J计算机网络（一）-总结计算机网络体系结构</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
         <content type="html">&lt;p&gt;学习目标：&lt;br&gt;
 &lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200816161827830.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;一-概念-功能-组成-分类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-概念-功能-组成-分类&#34;&gt;#&lt;/a&gt; 一、概念、功能、组成、分类&lt;/h1&gt;
@@ -1910,9 +1910,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-25T13:05:52.372Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/jsp%E5%92%8CJavaBean/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/jsp%E5%92%8CJavaBean/</id>
         <title>JavaWeb学习-JSP和JavaBean</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/jsp%E5%92%8CJavaBean/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/jsp%E5%92%8CJavaBean/"/>
         <content type="html">&lt;h1 id=&#34;1-认识javabean&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-认识javabean&#34;&gt;#&lt;/a&gt; 1、认识 JavaBean&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;JavaBean 是一个遵循特定写法的 Java 类&lt;/strong&gt;，在 JavaBean 中可以将控制逻辑、值、数据库访问和其他对象进行封装，并且可以被其他应用来调用。实际上，JavaBean 就是一种&lt;strong&gt; Java 组件技术&lt;/strong&gt;。JavaBean 的作用是&lt;strong&gt;向用户提供实现特定逻辑的方法接口&lt;/strong&gt;，而具体的实现封装在组件的内部，不同的用户根据具体的应用情况&lt;strong&gt;使用该组件的部分或全部控制逻辑。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;它通常具有如下特点：&lt;/p&gt;
@@ -1993,9 +1993,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-25T13:05:52.370Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/%E4%B8%83%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E4%B8%83%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/</id>
         <title>Java设计模式-详谈七大设计原则</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/%E4%B8%83%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/%E4%B8%83%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
         <content type="html">&lt;h1 id=&#34;一-设计模式的目的&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-设计模式的目的&#34;&gt;#&lt;/a&gt; 一、设计模式的目的&lt;/h1&gt;
 &lt;p&gt;编写软件过程中，程序员面临着来自耦合性，内聚性以及可维护性，可扩展性，重用性，灵活性等多方面的挑战，设计模式是为了让程序 (软件)，具有更好：&lt;/p&gt;
 &lt;ol&gt;
@@ -2169,9 +2169,9 @@ n^2+5n+20 和 n^2 随着 n 变大，执行曲线无限接近，可以忽略 5n+2
         <updated>2020-08-25T13:05:52.367Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/python%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8Bpyecharts(%E4%B8%80)%E2%80%94%E2%80%94%E6%9F%B1%E7%8A%B6%E5%9B%BE%E3%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE%E3%80%81%E6%95%A3%E7%82%B9%E5%9B%BE%E3%80%81%E9%A5%BC%E5%9B%BE%E3%80%81%E8%AF%8D%E4%BA%91%E7%9A%84%E7%BB%98%E5%88%B6/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/python%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8Bpyecharts(%E4%B8%80)%E2%80%94%E2%80%94%E6%9F%B1%E7%8A%B6%E5%9B%BE%E3%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE%E3%80%81%E6%95%A3%E7%82%B9%E5%9B%BE%E3%80%81%E9%A5%BC%E5%9B%BE%E3%80%81%E8%AF%8D%E4%BA%91%E7%9A%84%E7%BB%98%E5%88%B6/</id>
         <title>python数据可视化之pyecharts(一)——柱状图、折线图、散点图、饼图、词云的绘制</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/python%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8Bpyecharts(%E4%B8%80)%E2%80%94%E2%80%94%E6%9F%B1%E7%8A%B6%E5%9B%BE%E3%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE%E3%80%81%E6%95%A3%E7%82%B9%E5%9B%BE%E3%80%81%E9%A5%BC%E5%9B%BE%E3%80%81%E8%AF%8D%E4%BA%91%E7%9A%84%E7%BB%98%E5%88%B6/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/python%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8Bpyecharts(%E4%B8%80)%E2%80%94%E2%80%94%E6%9F%B1%E7%8A%B6%E5%9B%BE%E3%80%81%E6%8A%98%E7%BA%BF%E5%9B%BE%E3%80%81%E6%95%A3%E7%82%B9%E5%9B%BE%E3%80%81%E9%A5%BC%E5%9B%BE%E3%80%81%E8%AF%8D%E4%BA%91%E7%9A%84%E7%BB%98%E5%88%B6/"/>
         <content type="html">&lt;h1 id=&#34;1-下载安装pyecharts&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-下载安装pyecharts&#34;&gt;#&lt;/a&gt; 1、下载安装 pyecharts&lt;/h1&gt;
 &lt;p&gt;cmd 输入以下命令&lt;/p&gt;
 &lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pip install pyecharts&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2231,9 +2231,9 @@ pip 安装&lt;/p&gt;
         <updated>2020-08-25T13:05:52.365Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</id>
         <title>python网络爬虫-爬虫实战-(爬取网易云薛之谦歌单里歌曲并下载)</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/"/>
         <content type="html">&lt;h1 id=&#34;1-导入要用到的库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-导入要用到的库&#34;&gt;#&lt;/a&gt; 1、导入要用到的库&lt;/h1&gt;
 &lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;#导入库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; requests&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; fake_useragent &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; UserAgent&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; lxml &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; etree&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; re&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;很多初学 python 的同学不知道如何下载第三方库，我在这介绍一种和简单的方法&lt;br&gt;

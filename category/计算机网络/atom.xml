@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;计算机网络&#34; category</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-25T13:05:52.372Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
         <title>J计算机网络（一）-总结计算机网络体系结构</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
         <content type="html">&lt;p&gt;学习目标：&lt;br&gt;
 &lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200816161827830.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;一-概念-功能-组成-分类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-概念-功能-组成-分类&#34;&gt;#&lt;/a&gt; 一、概念、功能、组成、分类&lt;/h1&gt;

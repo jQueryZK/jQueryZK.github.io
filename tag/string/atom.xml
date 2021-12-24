@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;string&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-30T11:47:25.663Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</id>
         <title>Java学习-详谈String类及其常用方法</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
         <content type="html">&lt;h1 id=&#34;1-string类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-string类&#34;&gt;#&lt;/a&gt; 1、String 类&lt;/h1&gt;
 &lt;h2 id=&#34;11string类的概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11string类的概述&#34;&gt;#&lt;/a&gt; 1.1String 类的概述&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;java.lang.String&lt;/code&gt;  类代表&lt;strong&gt;字符串&lt;/strong&gt;。Java 程序中所有的字符串文字（例如 “abc” ）都可以被看作是实现此类的实例。类 String 中包括用于检查各个字符串的方法，比如用于&lt;strong&gt;比较字符串&lt;/strong&gt;，&lt;strong&gt;搜索字符串&lt;/strong&gt;，&lt;strong&gt;提取子字符串&lt;/strong&gt;以及&lt;strong&gt;创建具有翻 译为大写或小写的所有字符的字符串的副本&lt;/strong&gt;&lt;br&gt;

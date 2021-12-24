@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;继承&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-25T13:05:52.356Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</id>
         <title>Java学习-详谈最高层父类-Object类</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/"/>
         <content type="html">&lt;h1 id=&#34;1-object类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-object类&#34;&gt;#&lt;/a&gt; 1、Object 类&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Object 类是所有 Java 类的根父类  （多层继承中的最高层的父类）&lt;/li&gt;
@@ -155,9 +155,9 @@
         <updated>2020-08-25T13:05:52.356Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</id>
         <title>Java学习-继承、super关键字</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/"/>
         <content type="html">&lt;h1 id=&#34;1-引例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-引例&#34;&gt;#&lt;/a&gt; 1、引例&lt;/h1&gt;
 &lt;p&gt;假如现在有四个类它们的成员属性分别为：&lt;/p&gt;
 &lt;ul&gt;

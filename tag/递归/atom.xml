@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;递归&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-26T12:44:19.718Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/</id>
         <title>算法（java）-汉诺塔问题（递归回溯）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/26/%E7%AE%97%E6%B3%95%EF%BC%88java%EF%BC%89-%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%EF%BC%88%E9%80%92%E5%BD%92%E5%9B%9E%E6%BA%AF%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-汉诺塔问题介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-汉诺塔问题介绍&#34;&gt;#&lt;/a&gt; 1、汉诺塔问题介绍&lt;/h1&gt;
 &lt;p&gt;汉诺塔 (又称河内塔) 问题是源于印度一个古老传说的益智玩具。大梵天创造世界的时候做了三根金刚石柱子，在一根柱子上从下往上按照大小顺序摞着 64 片黄金圆盘。大梵天命令婆罗门把圆盘从下面开始按大小顺序重新摆放在另一根柱子上。并且规定，在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。&lt;br&gt;
 简单分析要求：&lt;/p&gt;
@@ -138,9 +138,9 @@
         <updated>2020-08-26T12:44:19.718Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/</id>
         <title>算法（Java实现）-求解八皇后问题（回溯算法）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E6%B1%82%E8%A7%A3%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%EF%BC%88%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-八皇后问题介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-八皇后问题介绍&#34;&gt;#&lt;/a&gt; 1、八皇后问题介绍&lt;/h1&gt;
 &lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200825184930877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
 &lt;p&gt;八皇后问题，是一个古老而著名的问题，是回溯算法的典型案例。该问题是国际西洋棋棋手马克斯・贝瑟尔于 1848 年提出：在 8×8 格的国际象棋上摆放八个皇后，使其不能互相攻击，即：任意两个皇后都不能处于同一行、同一列或同一斜线上，问有多少种摆法。&lt;/p&gt;
@@ -171,9 +171,9 @@ a [0] = 0  ：表示第 1 个皇后放在第 1 行的第 1 列&lt;br&gt;
         <updated>2020-08-25T13:05:52.359Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/</id>
         <title>算法（Java实现）-详谈递归（迷宫回溯问题）</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/%E7%AE%97%E6%B3%95%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%80%92%E5%BD%92%EF%BC%88%E8%BF%B7%E5%AE%AB%E5%9B%9E%E6%BA%AF%E9%97%AE%E9%A2%98%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-递归的概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-递归的概念&#34;&gt;#&lt;/a&gt; 1、递归的概念&lt;/h1&gt;
 &lt;p&gt;简单的说：递归就是方法自己调用自己，每次调用时传入不同的变量.&lt;strong&gt; 递归有助于编程者解决复杂的问题，&lt;/strong&gt; 同时可以让代码变得简洁。&lt;/p&gt;
 &lt;h1 id=&#34;2-递归调用的机制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-递归调用的机制&#34;&gt;#&lt;/a&gt; 2、递归调用的机制&lt;/h1&gt;

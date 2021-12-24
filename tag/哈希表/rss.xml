@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>jQueryZK Blog • Posts by &#34;哈希表&#34; tag</title>
-        <link>http://yoursite.com</link>
+        <link>https://jqueryzk.gitee.io/zkblog</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
         <pubDate>Thu, 10 Sep 2020 16:28:30 +0800</pubDate>
@@ -87,9 +87,9 @@
         <category>队列</category>
         <category>循环队列</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</guid>
             <title>数据结构（Java实现）-详谈哈希表(Hash Table)</title>
-            <link>http://yoursite.com/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</link>
             <category>哈希表</category>
             <category>开放地址法</category>
             <category>链地址法</category>

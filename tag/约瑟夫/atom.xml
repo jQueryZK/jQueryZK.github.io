@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;约瑟夫&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-23T11:06:38.687Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/</id>
         <title>算法（Java实现）-图解Josephu（约瑟夫）问题</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/23/%E7%BA%A6%E7%91%9F%E5%A4%AB/"/>
         <content type="html">&lt;h1 id=&#34;1-josephu约瑟夫&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-josephu约瑟夫&#34;&gt;#&lt;/a&gt; 1、Josephu (约瑟夫）&lt;/h1&gt;
 &lt;p&gt;问题描述：设编号为 1,2,3，，，，n 的 n 个人围坐一圈，约定编号为 k（1&amp;lt;=k&amp;lt;=n）的人从 1 开始报数，数到 m 的那个人出列，它的下一位又从 1 开始报数，数到 m 的那个人又出列，依次类推，直到所有人出列为止，由此产生一个出队编号的序列，和最后剩下的那个人。求这个序列和最后那个人的编号。&lt;br&gt;
 整体解题思路：&lt;strong&gt;用一个不带头节点的单向环形链表来处理该问题。&lt;/strong&gt;&lt;/p&gt;

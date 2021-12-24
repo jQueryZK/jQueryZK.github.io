@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;异常&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-09-27T06:29:34.088Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</id>
         <title>Java学习-详谈Java异常和异常处理</title>
-        <link rel="alternate" href="http://yoursite.com/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/"/>
         <content type="html">&lt;h1 id=&#34;1-异常&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-异常&#34;&gt;#&lt;/a&gt; 1、异常&lt;/h1&gt;
 &lt;h2 id=&#34;11异常概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11异常概念&#34;&gt;#&lt;/a&gt; 1.1 异常概念&lt;/h2&gt;
 &lt;p&gt;异常，就是不正常的意思。在生活中：医生说，你的身体某个部位有异常，该部位和正常相比有点不同，该部位的功能将 受影响。在程序中的意思就是：&lt;/p&gt;

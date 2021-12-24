@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>https://jqueryzk.gitee.io/zkblog</id>
     <title>jQueryZK Blog • Posts by &#34;容器&#34; tag</title>
-    <link href="http://yoursite.com" />
+    <link href="https://jqueryzk.gitee.io/zkblog" />
     <updated>2020-08-30T09:27:06.176Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</id>
+        <id>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</id>
         <title>Java学习-详谈数组Array和数组工具类Arrays</title>
-        <link rel="alternate" href="http://yoursite.com/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/"/>
+        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/"/>
         <content type="html">&lt;h1 id=&#34;1-数组的定义和访问&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-数组的定义和访问&#34;&gt;#&lt;/a&gt; 1、数组的定义和访问&lt;/h1&gt;
 &lt;h2 id=&#34;11容器概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11容器概述&#34;&gt;#&lt;/a&gt; 1.1 容器概述&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;案例分析：&lt;/strong&gt; 现在需要统计某公司员工的工资情况，例如计算平均工资、找到最高工资等。假设该公司有 50 名员工，用前面所学 的知识，程序首先需要声明 50 个变量来分别记住每位员工的工资，然后在进行操作，这样做会显得很麻烦，而且错 误率也会很高。因此我们可以使用容器进行操作。将所有的数据全部存储到一个容器中，统一操作。&lt;/p&gt;

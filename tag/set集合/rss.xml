@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>jQueryZK Blog • Posts by &#34;set集合&#34; tag</title>
-        <link>http://yoursite.com</link>
+        <link>https://jqueryzk.gitee.io/zkblog</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
         <pubDate>Thu, 10 Sep 2020 16:28:30 +0800</pubDate>
@@ -87,9 +87,9 @@
         <category>队列</category>
         <category>循环队列</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</guid>
             <title>Java学习-详谈Set集合（HashSet、TreeSet、LinkedHashSet）</title>
-            <link>http://yoursite.com/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</link>
+            <link>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</link>
             <category>Set集合</category>
             <category>HashSet</category>
             <category>TreeSet</category>
