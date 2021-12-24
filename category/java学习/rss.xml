@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>jQueryZK Blog • Posts by &#34;java学习&#34; category</title>
-        <link>https://jqueryzk.gitee.io/zkblog</link>
+        <link>https://jQueryZK.github.io</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
         <pubDate>Sun, 27 Sep 2020 14:29:34 +0800</pubDate>
@@ -87,9 +87,9 @@
         <category>队列</category>
         <category>循环队列</category>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</guid>
             <title>Java学习-详谈Java异常和异常处理</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</link>
+            <link>https://jqueryzk.github.io/2020/09/27/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Java%E5%BC%82%E5%B8%B8%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</link>
             <category>java</category>
             <category>异常</category>
             <category>异常处理</category>
@@ -254,9 +254,9 @@ try…catch…finally: 自身需要处理异常，最终还得关闭资源。&lt
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</guid>
             <title>Java学习-详谈Map集合（HashMap、LinkedHashMap、TreeMap）</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</link>
+            <link>https://jqueryzk.github.io/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</link>
             <category>Map集合</category>
             <category>HashMap</category>
             <category>LinkedHashMap</category>
@@ -413,9 +413,9 @@ try…catch…finally: 自身需要处理异常，最终还得关闭资源。&lt
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</guid>
             <title>Java学习-Collections工具类和Java常见的几种比较器</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</link>
+            <link>https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</link>
             <category>Collections</category>
             <category>Comparable</category>
             <category>Comparator</category>
@@ -473,9 +473,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</guid>
             <title>Java学习-详谈Set集合（HashSet、TreeSet、LinkedHashSet）</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</link>
+            <link>https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</link>
             <category>Set集合</category>
             <category>HashSet</category>
             <category>TreeSet</category>
@@ -555,9 +555,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</guid>
             <title>Java学习-详谈泛型</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</link>
+            <link>https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%B3%9B%E5%9E%8B/</link>
             <category>java</category>
             <category>泛型</category>
             <pubDate>Thu, 03 Sep 2020 13:14:58 +0800</pubDate>
@@ -654,9 +654,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/</guid>
             <title>Java学习-Collection集合和Iterator迭代器</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/</link>
+            <link>https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-Collection%E9%9B%86%E5%90%88%E5%92%8CIterator%E8%BF%AD%E4%BB%A3%E5%99%A8/</link>
             <category>java</category>
             <category>Collection</category>
             <category>Iterator</category>
@@ -730,9 +730,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</guid>
             <title>Java学习-详谈List集合（ArrayList、LinkedList、Vector和Stack）</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</link>
+            <link>https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</link>
             <category>java</category>
             <category>List</category>
             <category>ArrayList</category>
@@ -954,9 +954,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</guid>
             <title>Java学习-Random类和Math类</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</link>
+            <link>https://jqueryzk.github.io/2020/08/30/Java%E5%AD%A6%E4%B9%A0-Random%E7%B1%BB%E5%92%8CMath%E7%B1%BB/</link>
             <category>java</category>
             <category>类</category>
             <category>Random类</category>
@@ -1031,9 +1031,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
             <title>Java学习-详谈String类及其常用方法</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</link>
+            <link>https://jqueryzk.github.io/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88String%E7%B1%BB%E5%8F%8A%E5%85%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</link>
             <category>java</category>
             <category>字符串</category>
             <category>String</category>
@@ -1103,9 +1103,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</guid>
             <title>Java学习-详谈数组Array和数组工具类Arrays</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</link>
+            <link>https://jqueryzk.github.io/2020/08/30/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%95%B0%E7%BB%84Array%E5%92%8C%E6%95%B0%E7%BB%84%E5%B7%A5%E5%85%B7%E7%B1%BBArrays/</link>
             <category>java</category>
             <category>数组</category>
             <category>Arrays</category>
@@ -1240,9 +1240,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</guid>
             <title>Java学习-详谈最高层父类-Object类</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</link>
+            <link>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</link>
             <category>java</category>
             <category>面向对象</category>
             <category>继承</category>
@@ -1311,9 +1311,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/</guid>
             <title>Java学习-方法的重写（覆盖）和重载</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/</link>
+            <link>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99%EF%BC%88%E8%A6%86%E7%9B%96%EF%BC%89%E5%92%8C%E9%87%8D%E8%BD%BD/</link>
             <category>java</category>
             <category>面向对象</category>
             <category>重写</category>
@@ -1376,9 +1376,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/</guid>
             <title>Java学习-访问权限控制</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/</link>
+            <link>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/</link>
             <category>java</category>
             <category>面向对象</category>
             <category>类</category>
@@ -1436,9 +1436,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
             <title>Java学习-继承、super关键字</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+            <link>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E7%BB%A7%E6%89%BF%E3%80%81super%E5%85%B3%E9%94%AE%E5%AD%97/</link>
             <category>java</category>
             <category>面向对象</category>
             <category>继承</category>
@@ -1599,9 +1599,9 @@ Comparable 接口将比较代码&lt;strong&gt;嵌入自身类&lt;/strong&gt;中�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/</guid>
             <title>Java学习-多态性</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/</link>
+            <link>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E5%A4%9A%E6%80%81%E6%80%A7/</link>
             <category>java</category>
             <category>多态性</category>
             <category>面向对象</category>
@@ -1663,9 +1663,9 @@ Person  e = new Student ();//Person 类型的变量 e，指向 Student 类型的
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</guid>
             <title>Java学习-类的隐藏机制（封装性）</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</link>
+            <link>https://jqueryzk.github.io/2020/08/21/Java%E5%AD%A6%E4%B9%A0-%E7%B1%BB%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E5%88%B6(%E5%B0%81%E8%A3%85%E6%80%A7)/</link>
             <category>java</category>
             <category>面向对象</category>
             <category>类</category>

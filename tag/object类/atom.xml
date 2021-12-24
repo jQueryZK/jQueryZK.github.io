@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;object类&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-08-25T13:05:52.356Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</id>
+        <id>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/</id>
         <title>Java学习-详谈最高层父类-Object类</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88%E6%9C%80%E9%AB%98%E5%B1%82%E7%88%B6%E7%B1%BB-Object%E7%B1%BB/"/>
         <content type="html">&lt;h1 id=&#34;1-object类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-object类&#34;&gt;#&lt;/a&gt; 1、Object 类&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Object 类是所有 Java 类的根父类  （多层继承中的最高层的父类）&lt;/li&gt;

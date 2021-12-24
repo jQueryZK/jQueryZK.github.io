@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;comparable&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-09-10T08:28:30.819Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</id>
+        <id>https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/</id>
         <title>Java学习-Collections工具类和Java常见的几种比较器</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-Collections%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%92%8CJava%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E6%AF%94%E8%BE%83%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;1-collections集合工具类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-collections集合工具类&#34;&gt;#&lt;/a&gt; 1、Collections 集合工具类&lt;/h1&gt;
 &lt;h2 id=&#34;11基本介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11基本介绍&#34;&gt;#&lt;/a&gt; 1.1 基本介绍&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;java.utils.Collections&lt;/code&gt;  是 Java 提供的一个操作  &lt;code&gt;Set&lt;/code&gt; 、 &lt;code&gt;List&lt;/code&gt;  和  &lt;code&gt;Map&lt;/code&gt;  等集合的工具类。Collections 类提供了许多&lt;strong&gt;操作集合的静态方法&lt;/strong&gt;，借助这些静态方法可以实现集合元素的&lt;strong&gt;排序、查找替换和复制&lt;/strong&gt; 等操作。&lt;/p&gt;

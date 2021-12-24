@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;python网络爬虫&#34; category</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-08-25T13:05:52.362Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</id>
+        <id>https://jqueryzk.github.io/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/</id>
         <title>python网络爬虫-爬虫实战-(爬取网易云薛之谦歌单里歌曲并下载)</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/25/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E7%88%AC%E8%99%AB%E5%AE%9E%E6%88%98-(%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E8%96%9B%E4%B9%8B%E8%B0%A6%E6%AD%8C%E5%8D%95%E9%87%8C%E6%AD%8C%E6%9B%B2%E5%B9%B6%E4%B8%8B%E8%BD%BD)/"/>
         <content type="html">&lt;h1 id=&#34;1-导入要用到的库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-导入要用到的库&#34;&gt;#&lt;/a&gt; 1、导入要用到的库&lt;/h1&gt;
 &lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;#导入库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; requests&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; fake_useragent &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; UserAgent&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; lxml &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; etree&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; re&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;很多初学 python 的同学不知道如何下载第三方库，我在这介绍一种和简单的方法&lt;br&gt;

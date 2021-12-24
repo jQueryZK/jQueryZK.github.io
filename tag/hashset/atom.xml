@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;hashset&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-09-10T08:28:30.815Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</id>
+        <id>https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/</id>
         <title>Java学习-详谈Set集合（HashSet、TreeSet、LinkedHashSet）</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/09/10/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Set%E9%9B%86%E5%90%88%EF%BC%88HashSet%E3%80%81TreeSet%E3%80%81LinkedHashSet%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-set接口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-set接口&#34;&gt;#&lt;/a&gt; 1、Set 接口&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;java.util.Set&lt;/code&gt;  接口和  &lt;code&gt;java.util.List&lt;/code&gt;  接口一样，同样&lt;strong&gt;继承自 Collection 接口&lt;/strong&gt;，它与 Collection 接口中的方法基本一致，并没有对 Collection 接口进行功能上的扩充，只是比 Collection 接口更加严格了。与 List 接口不同的是， Set 接口中&lt;font color=red&gt;&lt;strong&gt;元素无序&lt;/strong&gt;&lt;/font&gt;，并且都会以某种规则保证存入的&lt;font color=red&gt;&lt;strong&gt;元素不出现重复&lt;/strong&gt;&lt;/font&gt;。&lt;br&gt;
 &lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200909152554478.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;

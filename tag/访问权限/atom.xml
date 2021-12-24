@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;访问权限&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-08-25T13:03:42.975Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/</id>
+        <id>https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/</id>
         <title>Java学习-访问权限控制</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/25/Java%E5%AD%A6%E4%B9%A0-%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/"/>
         <content type="html">&lt;h1 id=&#34;1-为什么要有访问权限控制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-为什么要有访问权限控制&#34;&gt;#&lt;/a&gt; 1、为什么要有访问权限控制？&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;访问控制 (或隐藏具体实现) 与 “最初的实现并不恰当” 有关。&lt;/strong&gt;&lt;br&gt;
 所有优秀的作者，包括那些编写软件的程序员，都清楚其著作的某些部分直至重新创作的时候才变得完美，有时甚至要反复重写多次。如果你把一个代码段放到了某个位置，等过一会儿回头再看时，有可能会发现有更好的方式去实现相同的功能。这正是重构的原动力之一，重构即重写代码，以使得它更可读、更易理解，并因此而更具可维护性。但是，在这种修改和完善代码的愿望之下，也存在着巨大的压力。通常总是会有一些消费者 (客户端程序员) 需要你的代码在某些方面保持不变。因此你想改变代码，而他们却想让代码保持不变。由此而产生了在面向对象设计中需要考虑的一一个基本问题:“如何把变动的事物与保持不变的事物区分开来”。&lt;br&gt;

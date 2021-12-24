@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;javabean&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-08-25T13:05:52.370Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/25/jsp%E5%92%8CJavaBean/</id>
+        <id>https://jqueryzk.github.io/2020/08/25/jsp%E5%92%8CJavaBean/</id>
         <title>JavaWeb学习-JSP和JavaBean</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/25/jsp%E5%92%8CJavaBean/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/25/jsp%E5%92%8CJavaBean/"/>
         <content type="html">&lt;h1 id=&#34;1-认识javabean&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-认识javabean&#34;&gt;#&lt;/a&gt; 1、认识 JavaBean&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;JavaBean 是一个遵循特定写法的 Java 类&lt;/strong&gt;，在 JavaBean 中可以将控制逻辑、值、数据库访问和其他对象进行封装，并且可以被其他应用来调用。实际上，JavaBean 就是一种&lt;strong&gt; Java 组件技术&lt;/strong&gt;。JavaBean 的作用是&lt;strong&gt;向用户提供实现特定逻辑的方法接口&lt;/strong&gt;，而具体的实现封装在组件的内部，不同的用户根据具体的应用情况&lt;strong&gt;使用该组件的部分或全部控制逻辑。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;它通常具有如下特点：&lt;/p&gt;

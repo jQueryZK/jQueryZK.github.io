@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>jQueryZK Blog • Posts by &#34;jsp&#34; tag</title>
-        <link>https://jqueryzk.gitee.io/zkblog</link>
+        <link>https://jQueryZK.github.io</link>
         <description>过去无法挽回，未来可以改变</description>
         <language>en</language>
         <pubDate>Tue, 25 Aug 2020 21:05:52 +0800</pubDate>
@@ -87,9 +87,9 @@
         <category>队列</category>
         <category>循环队列</category>
         <item>
-            <guid isPermalink="true">https://jqueryzk.gitee.io/zkblog/2020/08/25/jsp%E5%92%8CJavaBean/</guid>
+            <guid isPermalink="true">https://jqueryzk.github.io/2020/08/25/jsp%E5%92%8CJavaBean/</guid>
             <title>JavaWeb学习-JSP和JavaBean</title>
-            <link>https://jqueryzk.gitee.io/zkblog/2020/08/25/jsp%E5%92%8CJavaBean/</link>
+            <link>https://jqueryzk.github.io/2020/08/25/jsp%E5%92%8CJavaBean/</link>
             <category>JavaWeb</category>
             <category>JSP</category>
             <category>JavaBean</category>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;数据结构(java实现)&#34; category</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-09-10T08:28:30.810Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</id>
+        <id>https://jqueryzk.github.io/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/</id>
         <title>数据结构（Java实现）-详谈哈希表(Hash Table)</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/09/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E5%93%88%E5%B8%8C%E8%A1%A8(Hash%20Table)/"/>
         <content type="html">&lt;h1 id=&#34;1-哈希表介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-哈希表介绍&#34;&gt;#&lt;/a&gt; 1、哈希表介绍&lt;/h1&gt;
 &lt;p&gt;散列表（Hash table，也叫哈希表），是根据&lt;strong&gt;关键码值 (Key value)&lt;strong&gt; 而&lt;/strong&gt;直接进行访问&lt;/strong&gt;的&lt;strong&gt;数据结构&lt;/strong&gt;。也就是说，它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做散列函数，存放记录的数组叫做散列表。&lt;/p&gt;
 &lt;p&gt;（&lt;font color=red&gt;哈希表的底层是数组&lt;/font&gt;）&lt;br&gt;
@@ -186,9 +186,9 @@ H（key）=key  MOD  p，p&amp;lt;=m   （最简单，最常用）p 的选取很
         <updated>2020-09-10T08:28:30.810Z</updated>
     </entry>
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E6%96%B0%E6%B5%AA%E3%80%81%E7%99%BE%E5%BA%A6%E3%80%81%E8%85%BE%E8%AE%AF%EF%BC%89/</id>
+        <id>https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E6%96%B0%E6%B5%AA%E3%80%81%E7%99%BE%E5%BA%A6%E3%80%81%E8%85%BE%E8%AE%AF%EF%BC%89/</id>
         <title>数据结构（Java实现）-单链表常见面试题（新浪、百度、腾讯）</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E6%96%B0%E6%B5%AA%E3%80%81%E7%99%BE%E5%BA%A6%E3%80%81%E8%85%BE%E8%AE%AF%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E6%96%B0%E6%B5%AA%E3%80%81%E7%99%BE%E5%BA%A6%E3%80%81%E8%85%BE%E8%AE%AF%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-求单链表中有效节点个数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-求单链表中有效节点个数&#34;&gt;#&lt;/a&gt; 1、求单链表中有效节点个数&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;思路：&lt;/strong&gt; 遍历链表获取单链表的节点的个数（如果是带头节点的链表，不能统计头节点）&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;getLength&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(LinkNode head)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(head.next==&lt;span class=&#34;keyword&#34;&gt;null&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;span class=&#34;comment&#34;&gt;//空链表&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; length=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;//定义一个辅助的变量，这里我们没有统计头节点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    LinkNode cur = head.next;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(cur != &lt;span class=&#34;keyword&#34;&gt;null&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        length++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cur = cur.next;&lt;span class=&#34;comment&#34;&gt;//继续向下遍历&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; length;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -235,9 +235,9 @@ H（key）=key  MOD  p，p&amp;lt;=m   （最简单，最常用）p 的选取很
         <updated>2020-08-24T13:56:07.823Z</updated>
     </entry>
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%EF%BC%88%E5%8D%95%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/</id>
+        <id>https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%EF%BC%88%E5%8D%95%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/</id>
         <title>数据结构（Java实现）-单链表（单链表实现学生成绩管理系统）</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%EF%BC%88%E5%8D%95%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E5%8D%95%E9%93%BE%E8%A1%A8%EF%BC%88%E5%8D%95%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-链表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-链表&#34;&gt;#&lt;/a&gt; 1、链表&lt;/h1&gt;
 &lt;h2 id=&#34;11链表的基本介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11链表的基本介绍&#34;&gt;#&lt;/a&gt; 1.1 链表的基本介绍&lt;/h2&gt;
 &lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/20200814092724497.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
@@ -278,9 +278,9 @@ H（key）=key  MOD  p，p&amp;lt;=m   （最简单，最常用）p 的选取很
         <updated>2020-08-24T13:42:22.763Z</updated>
     </entry>
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%98%9F%E5%88%97/</id>
+        <id>https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%98%9F%E5%88%97/</id>
         <title>数据结构（Java实现）-详谈队列</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%98%9F%E5%88%97/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%B0%88%E9%98%9F%E5%88%97/"/>
         <content type="html">&lt;h1 id=&#34;1-队列介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-队列介绍&#34;&gt;#&lt;/a&gt; 1、队列介绍&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;队列是一个有序列表，可以用&lt;strong&gt;数组（顺序存储）&lt;/strong&gt; 或是 &lt;strong&gt;链表（链式存储）&lt;/strong&gt; 来实现&lt;/li&gt;
@@ -359,9 +359,9 @@ H（key）=key  MOD  p，p&amp;lt;=m   （最简单，最常用）p 的选取很
         <updated>2020-08-24T13:28:56.885Z</updated>
     </entry>
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%20%E7%A8%80%E7%96%8Fsparsearray%E6%95%B0%E7%BB%84/</id>
+        <id>https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%20%E7%A8%80%E7%96%8Fsparsearray%E6%95%B0%E7%BB%84/</id>
         <title>数据结构（Java实现）- 稀疏sparsearray数组</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%20%E7%A8%80%E7%96%8Fsparsearray%E6%95%B0%E7%BB%84/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%20%E7%A8%80%E7%96%8Fsparsearray%E6%95%B0%E7%BB%84/"/>
         <content type="html">&lt;h1 id=&#34;1-先看一个实际的需求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-先看一个实际的需求&#34;&gt;#&lt;/a&gt; 1、先看一个实际的需求&lt;/h1&gt;
 &lt;p&gt;在编写的五子棋程序中，有存盘退出和续上盘的功能。&lt;br&gt;
 这时候就要求我们要使用二维数组来记录棋盘，如下图所示：&lt;br&gt;
@@ -410,9 +410,9 @@ H（key）=key  MOD  p，p&amp;lt;=m   （最简单，最常用）p 的选取很
         <updated>2020-08-24T13:07:09.607Z</updated>
     </entry>
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
+        <id>https://jqueryzk.github.io/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
         <title>数据结构（Java实现）-详解栈（实现中缀表达式计算器、逆波兰计算器   中缀表达式转逆波兰表达式过程）</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88Java%E5%AE%9E%E7%8E%B0%EF%BC%89-%E8%AF%A6%E8%A7%A3%E6%A0%88-%E6%B3%A2%E5%85%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;1-栈stack的介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-栈stack的介绍&#34;&gt;#&lt;/a&gt; 1、栈（stack）的介绍：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;栈是一个先入后出、后入先出的&lt;strong&gt;有序列表。&lt;/strong&gt;&lt;/li&gt;

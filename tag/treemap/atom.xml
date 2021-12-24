@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;treemap&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-09-12T07:32:59.727Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</id>
+        <id>https://jqueryzk.github.io/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/</id>
         <title>Java学习-详谈Map集合（HashMap、LinkedHashMap、TreeMap）</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/09/12/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88Map%E9%9B%86%E5%90%88%EF%BC%88HashMap%E3%80%81LinkedHashMap%E3%80%81TreeMap%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1-map集合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-map集合&#34;&gt;#&lt;/a&gt; 1、Map 集合&lt;/h1&gt;
 &lt;h2 id=&#34;11map集合介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11map集合介绍&#34;&gt;#&lt;/a&gt; 1.1Map 集合介绍&lt;/h2&gt;
 &lt;p&gt;现实生活中，我们常会看到这样的一种集合：IP 地址与主机名，身份证号与个人，系统用户名与系统用户对象等， 这种&lt;strong&gt;一一对应的关系&lt;/strong&gt;，就叫做&lt;strong&gt;映射&lt;/strong&gt;。Java 提供了专门的集合类用来存放这种对象关系的对象，即  &lt;code&gt;java.util.Map&lt;/code&gt;  接 口。&lt;/p&gt;

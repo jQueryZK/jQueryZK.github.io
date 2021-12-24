@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jqueryzk.gitee.io/zkblog</id>
+    <id>https://jQueryZK.github.io</id>
     <title>jQueryZK Blog • Posts by &#34;stack&#34; tag</title>
-    <link href="https://jqueryzk.gitee.io/zkblog" />
+    <link href="https://jQueryZK.github.io" />
     <updated>2020-09-03T05:14:52.685Z</updated>
     <category term="Collections" />
     <category term="Comparable" />
@@ -84,9 +84,9 @@
     <category term="队列" />
     <category term="循环队列" />
     <entry>
-        <id>https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</id>
+        <id>https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/</id>
         <title>Java学习-详谈List集合（ArrayList、LinkedList、Vector和Stack）</title>
-        <link rel="alternate" href="https://jqueryzk.gitee.io/zkblog/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/"/>
+        <link rel="alternate" href="https://jqueryzk.github.io/2020/09/03/Java%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%B0%88List%E9%9B%86%E5%90%88%EF%BC%88ArrayList%E3%80%81LinkedList%E3%80%81Vector%E5%92%8CStack%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;1list接口介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1list接口介绍&#34;&gt;#&lt;/a&gt; 1.List 接口介绍&lt;/h1&gt;
 &lt;p&gt;&lt;img src= &#34;/img/loading.gif&#34; data-lazy-src=&#34;https://img-blog.csdnimg.cn/2020090219441391.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI3OTE3OA==,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
  &lt;code&gt;java.util.List&lt;/code&gt;  接口继承自 Collection 接口，是单列集合的一个重要分支，习惯性地会将实现了 List 接口的对象称为&lt;strong&gt; List 集合&lt;/strong&gt;。&lt;br&gt;
